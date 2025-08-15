@@ -1,5 +1,3 @@
-# Week 1 - Day 1
-
 ## Overview
 This folder contains practical applications of ISTQB® Foundation Level concepts for Day 1 of my Software Testing Portfolio.
 
