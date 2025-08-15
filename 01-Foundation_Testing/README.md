@@ -43,9 +43,12 @@ It reflects my ability to take theory and **apply it in a professional QA workfl
 ---
 
 ## 💡 Why I Included This  
-A strong foundation in software testing is key to producing high-quality products.  
-By structuring my work in this way, I’m showing my ability to:  
-- Understand and apply core QA concepts  
-- Create professional test documentation  
-- Use structured techniques to design effective tests  
-- Communicate results clearly with the team  
+A strong foundation in software testing is key to delivering reliable, high-quality products.  
+By structuring my work in this way, I’m demonstrating my ability to:
+
+- Apply **ISTQB® Foundation Level** concepts in practical, real-world scenarios  
+- Create **clear, professional test documentation** that supports team collaboration  
+- Design **effective test cases** using industry-recognized techniques  
+- Identify, report, and track defects with a focus on severity, priority, and impact  
+- Prioritize testing through **risk-based analysis** to maximize value and coverage  
+- Communicate findings clearly to both technical and non-technical stakeholders
