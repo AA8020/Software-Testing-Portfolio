@@ -33,7 +33,7 @@ I am a **detail-oriented and analytical software tester** with a strong foundati
 ![STLC Diagram](Week1/Day1/stlc_diagram.png)  
 ![Defect Life Cycle](Week1/Day1/defect_life_cycle.png)
 
-### **Test Automation**
+### **Automation Testing**
 - 
 
 ### **API & CI/CD**
