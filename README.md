@@ -73,7 +73,3 @@ I am a **detail-oriented and analytical software tester** with a strong foundati
 * Demonstrates ability to handle full QA lifecycle independently
 
 ---
-
-## **Goal**
-
-This portfolio demonstrates my applied software testing skills, with practical examples in **manual testing, automation, API testing, CI/CD, and development methodologies**, all **organized by skill areas** to clearly show progression and real-world applicability.
