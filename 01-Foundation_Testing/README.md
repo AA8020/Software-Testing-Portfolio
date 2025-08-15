@@ -1,25 +1,51 @@
-## Overview
-This folder showcases hands-on applications of ISTQB® Foundation Level concepts, including test planning, test case design, and defect reporting. It demonstrates my foundational knowledge of software testing principles, methodologies, and quality assurance practices, providing concrete examples of how I apply theory to real-world scenarios.
+# 01 – Foundation Testing
 
-## Skills Demonstrated
-- Writing professional defect reports
-- Creating test cases using black-box techniques
-- Preparing a manual test plan
-- Understanding and visualizing the Software Testing Life Cycle (STLC)
-- Applying test design techniques: equivalence partitioning, boundary value analysis
-- Performing risk-based and exploratory testing
+## 📌 Overview  
+This folder showcases **my hands-on practice** with **ISTQB® Foundation Level** concepts, using real-world-style test artifacts and documentation.  
+It reflects my ability to take theory and **apply it in a professional QA workflow**, covering everything from **manual test planning** to **defect reporting**.  
 
-## Files
-- `bug-report-example.md` – Sample bug report following industry standards
-- `manual-test-plan.md` – Manual test plan for the sample application
-- `test-case-sample.md` – Black-box test cases
-- `stlc_diagram.png` – Software Testing Life Cycle diagram
-- `defect_life_cycle.png` – Defect life cycle diagram showing states and transitions
-- `equivalence_partitioning.md` – Example of equivalence partitioning technique
-- `boundary_value_analysis.md` – Example of boundary value analysis
-- `risk_analysis.md` – Risk-based testing document
-- `exploratory_testing.md` – Exploratory testing observations
+---
 
-## Tools Used
-- Markdown for documentation
-- Draw.io for diagrams
+## 🎯 Skills I’ve Practiced  
+- Writing **clear, professional defect reports** with severity & priority  
+- Designing **manual test plans** for a sample application  
+- Creating **black-box test cases** with detailed steps, expected results, and pass/fail criteria  
+- Applying core test design techniques:  
+  - **Equivalence Partitioning (EP)**  
+  - **Boundary Value Analysis (BVA)**  
+- Understanding and visualizing:  
+  - **Software Testing Life Cycle (STLC)**  
+  - **Defect Life Cycle**  
+- Performing **risk-based testing** to focus on the most critical areas  
+- Conducting **exploratory testing** to uncover hidden issues  
+
+---
+
+## 📂 Files in This Folder  
+| File | Description |
+|------|-------------|
+| [bug-report-example.md](bug-report-example.md) | Example of an industry-standard bug report |
+| [manual-test-plan.md](manual-test-plan.md) | Sample manual test plan |
+| [test-case-sample.md](test-case-sample.md) | Black-box test case examples |
+| [stlc_diagram.png](stlc_diagram.png) | Visual of the Software Testing Life Cycle |
+| [defect_life_cycle.png](defect_life_cycle.png) | Visual of defect states and transitions |
+| [equivalence_partitioning.md](equivalence_partitioning.md) | EP technique example |
+| [boundary_value_analysis.md](boundary_value_analysis.md) | BVA technique example |
+| [risk_analysis.md](risk_analysis.md) | Risk-based testing approach |
+| [exploratory_testing.md](exploratory_testing.md) | Exploratory testing notes |
+
+---
+
+## 🛠 Tools I Used  
+- **Markdown** – Clear, readable documentation  
+- **Draw.io** – Diagrams and workflows  
+
+---
+
+## 💡 Why I Included This  
+A strong foundation in software testing is key to producing high-quality products.  
+By structuring my work in this way, I’m showing my ability to:  
+- Understand and apply core QA concepts  
+- Create professional test documentation  
+- Use structured techniques to design effective tests  
+- Communicate results clearly with the team  
