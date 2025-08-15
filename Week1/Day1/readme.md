@@ -14,6 +14,7 @@ This folder contains practical applications of ISTQB® Foundation Level concepts
 - `defect_life_cycle.png` – Diagram showing bug life cycle
 - `manual-test-plan.md` – Manual test plan for the sample application
 - `stlc_diagram.png` – Software Testing Life Cycle diagram
+- `defect_life_cycle.png` – Defect life cycle diagram showing states and transitions
 - `test-case-sample.md` – Black-box test cases
 
 ## Tools Used
