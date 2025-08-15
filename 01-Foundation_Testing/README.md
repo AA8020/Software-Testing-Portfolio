@@ -1,5 +1,5 @@
 ## Overview
-This folder contains practical applications of ISTQB® Foundation Level concepts for Day 1 of my Software Testing Portfolio.
+This folder showcases hands-on applications of ISTQB® Foundation Level concepts, including test planning, test case design, and defect reporting. It demonstrates my foundational knowledge of software testing principles, methodologies, and quality assurance practices, providing concrete examples of how I apply theory to real-world scenarios.
 
 ## Skills Demonstrated
 - Writing professional defect reports
