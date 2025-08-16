@@ -5,13 +5,11 @@
 	<a href="https://www.jenkins.io/"><img src="https://img.shields.io/badge/Jenkins-CI/CD-red" alt="Jenkins"></a>
 </p>
 
+
 # 🧪 Software Testing Portfolio
 
-
----
-
 ## 👤 About Me
-I am a junior software tester with a strong foundation in quality assurance principles and a passion for continuous learning. My experience spans manual testing, automation, API validation, and CI/CD integration. I am committed to delivering reliable results, collaborating effectively with teams, and growing my expertise in real-world environments. This portfolio is a demonstration of my knowledge, attention to detail, and readiness to contribute to professional QA projects.
+I am an aspiring software tester and **ISTQB® Certified Tester Foundation Level v4 (CTFL)** holder with a strong foundation in software testing principles and a passion for continuous learning. My skills include manual testing, basic automation, API validation, and an understanding of CI/CD concepts. I am committed to delivering reliable results, collaborating effectively with teams, and applying my knowledge in real-world projects. This portfolio demonstrates my attention to detail, problem-solving mindset, and readiness to grow into a professional software testing role.
 
 ---
 
@@ -21,10 +19,7 @@ I am a junior software tester with a strong foundation in quality assurance prin
 - [Portfolio Structure & Highlights](#️-portfolio-structure--highlights)
 - [Why This Portfolio Stands Out](#-why-this-portfolio-stands-out)
 - [Contact](#-contact)
-
 ---
-
-
 ## 🚀 Getting Started
 To explore this portfolio:
 1. **Browse the folders** for different testing topics and examples.  
@@ -80,8 +75,10 @@ To explore this portfolio:
 ---
 
 
-## 💡 Why This Portfolio Stands Out
-This portfolio showcases my growth and hands-on experience as a junior software tester. Through real-world examples, solid documentation, and a mix of manual, automation, and DevOps practices, I demonstrate a strong foundation and readiness to contribute to professional QA teams.
+## 💡 Why This Portfolio Stands Out  
+This portfolio highlights my growth and practical skills as an **ISTQB® Certified Tester Foundation Level v4 (CTFL)**.  
+Through real-world examples, clear documentation, and a combination of manual testing, automation, and DevOps practices, I demonstrate a strong foundation in software testing and readiness to make an impact in professional QA teams.
+
 
 ---
 
