@@ -1,23 +1,25 @@
 # 01 – Foundation Testing
 
-## 📌 Overview  
-This folder showcases **my hands-on practice** with **ISTQB® Foundation Level** concepts, using real-world-style test artifacts and documentation.  
-It reflects my ability to take theory and **apply it in a professional QA workflow**, covering everything from **manual test planning** to **defect reporting**.  
+
+## 📌 Overview
+This folder is a demonstration of my knowledge of **ISTQB® Foundation Level** concepts, presented through real-world-style test artifacts and documentation. Here, I illustrate how foundational testing theory is translated into professional QA workflows, including manual test planning and defect reporting.
 
 ---
 
-## 🎯 Skills I’ve Practiced  
-- Writing **clear, professional defect reports** with severity & priority  
-- Designing **manual test plans** for a sample application  
-- Creating **black-box test cases** with detailed steps, expected results, and pass/fail criteria  
-- Applying core test design techniques:  
-  - **Equivalence Partitioning (EP)**  
-  - **Boundary Value Analysis (BVA)**  
-- Understanding and visualizing:  
-  - **Software Testing Life Cycle (STLC)**  
-  - **Defect Life Cycle**  
-- Performing **risk-based testing** to focus on the most critical areas  
-- Conducting **exploratory testing** to uncover hidden issues  
+
+## 🎯 Knowledge Demonstrated
+This section demonstrates:
+- How to write clear, professional defect reports with severity and priority
+- The process of designing manual test plans for sample applications
+- The creation of black-box test cases with detailed steps, expected results, and pass/fail criteria
+- Application of core test design techniques:
+  - Equivalence Partitioning (EP)
+  - Boundary Value Analysis (BVA)
+- Understanding and visualization of:
+  - Software Testing Life Cycle (STLC)
+  - Defect Life Cycle
+- Approaches for risk-based testing to focus on critical areas
+- Methods for conducting exploratory testing to uncover hidden issues
 
 ---
 
@@ -42,13 +44,13 @@ It reflects my ability to take theory and **apply it in a professional QA workfl
 
 ---
 
-## 💡 Why I Included This  
-A strong foundation in software testing is key to delivering reliable, high-quality products.  
-By structuring my work in this way, I’m demonstrating my ability to:
 
-- Apply **ISTQB® Foundation Level** concepts in practical, real-world scenarios  
-- Create **clear, professional test documentation** that supports team collaboration  
-- Design **effective test cases** using industry-recognized techniques  
-- Identify, report, and track defects with a focus on severity, priority, and impact  
-- Prioritize testing through **risk-based analysis** to maximize value and coverage  
-- Communicate findings clearly to both technical and non-technical stakeholders
+## 💡 Why I Included This
+A strong foundation in software testing is essential for delivering reliable, high-quality products. This folder is structured to demonstrate my understanding of:
+
+- Applying ISTQB® Foundation Level concepts in real-world scenarios
+- Creating clear, professional test documentation for team collaboration
+- Designing effective test cases using industry-recognized techniques
+- Identifying, reporting, and tracking defects with attention to severity, priority, and impact
+- Prioritizing testing through risk-based analysis to maximize value and coverage
+- Communicating findings clearly to both technical and non-technical stakeholders
