@@ -8,10 +8,7 @@
 
 # 🧪 Software Testing Portfolio
 
-## 👤 About Me
-I am an aspiring software tester and **ISTQB® Certified Tester Foundation Level v4 (CTFL)** holder with a strong foundation in software testing principles and a passion for continuous learning. My skills include manual testing, basic automation, API validation, and an understanding of CI/CD concepts. I am committed to delivering reliable results, collaborating effectively with teams, and applying my knowledge in real-world projects. This portfolio demonstrates my attention to detail, problem-solving mindset, and readiness to grow into a professional software testing role.
 
----
 
 ## 📑 Table of Contents
 - [About Me](#-about-me)
@@ -20,6 +17,12 @@ I am an aspiring software tester and **ISTQB® Certified Tester Foundation Level
 - [Why This Portfolio Stands Out](#-why-this-portfolio-stands-out)
 - [Contact](#-contact)
 ---
+
+## 👤 About Me
+I am an aspiring software tester and **ISTQB® Certified Tester Foundation Level v4 (CTFL)** holder with a strong foundation in software testing principles and a passion for continuous learning. My skills include manual testing, basic automation, API validation, and an understanding of CI/CD concepts. I am committed to delivering reliable results, collaborating effectively with teams, and applying my knowledge in real-world projects. This portfolio demonstrates my attention to detail, problem-solving mindset, and readiness to grow into a professional software testing role.
+
+---
+
 ## 🚀 Getting Started
 To explore this portfolio:
 1. **Browse the folders** for different testing topics and examples.  
