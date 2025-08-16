@@ -7,7 +7,11 @@
 
 # 🧪 Software Testing Portfolio
 
-Welcome! This portfolio highlights my hands-on expertise in manual testing, automation, API testing, CI/CD, and software development. Each section is organized by skill area, making it easy for recruiters and hiring managers to quickly assess my practical capabilities for a software testing role.
+
+---
+
+## 👤 About Me
+I am a junior software tester with a strong foundation in quality assurance principles and a passion for continuous learning. My experience spans manual testing, automation, API validation, and CI/CD integration. I am committed to delivering reliable results, collaborating effectively with teams, and growing my expertise in real-world environments. This portfolio is a demonstration of my knowledge, attention to detail, and readiness to contribute to professional QA projects.
 
 ---
 
