@@ -31,8 +31,8 @@ To explore this portfolio:
 
 **Quick Links:**
 - [01 – Foundation Testing](./01-Foundation_Testing/README.md)
-- [02 – Bug Reports](./02-Bug_Reports/README.md)
-- [03 – Programming for Automation](./03-Programming_for_Automation/README.md)
+- [02 – Bug Reports (Tools)](./02-Bug_Reports/README.md)
+- [03 – Programming for Automation & OOP](./03-Programming_for_Automation/README.md)
 - [04 – Test Automation Frameworks](./04-Test_Automation_Frameworks/README.md)
 - [05 – API Testing](./05-API_Testing/README.md)
 - [06 – CI/CD Pipelines](./06-CI_CD_Pipelines/README.md)
