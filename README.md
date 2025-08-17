@@ -44,9 +44,10 @@ To explore this portfolio:
 ## 🗂️ Portfolio Structure & Highlights
 
 ### [01 – Foundation Testing](./01-Foundation_Testing/README.md)
-- Core software testing principles and methodologies  
-- **Test Plans, Test Cases, and Defect Reports**  
-- Visual diagrams: **STLC** & **Defect Life Cycle**  
+- Demonstrates **foundations of Quality Assurance and Software Testing** on a live website ([OpenCart Demo](https://demo.opencart.com/))  
+- Includes **Test Plans, structured Test Cases, and Defect Reports** reflecting real QA execution  
+- Provides **visual diagrams** illustrating the **Software Testing Life Cycle (STLC)** and **Defect Life Cycle**
+
 
 ### [02 – Bug Reports](./02-Bug_Reports/README.md)
 - Industry-standard bug reporting format  
