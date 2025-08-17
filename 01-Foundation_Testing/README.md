@@ -25,22 +25,41 @@ This folder proves I can:
 - Using **QA diagrams** (SDLC, V-Model, Defect Lifecycle) to connect theory with practice  
 - Showing how QA fits into the **Agile sprint workflow** (planning → execution → review)  
 
----
-
 ## 📌 How to Navigate This Folder  
-- [`README.md`](./README.md) → Overview of the folder, structure, and purpose  
-- [`Requirements.md`](./Requirements.md) → Assumed requirements for OpenCart Demo features  
-- [`Test_Plan.md`](./Test_Plan.md) → QA strategy, scope, roles, environment, and approach  
-- [`Test_Data.md`](./Test_Data.md) → Test input data used for executing cases  
-- [`Traceability_Matrix.md`](./Traceability_Matrix.md) → Requirement → Test Case → Bug mapping  
-- [`Risk_Assessment.md`](./Risk_Assessment.md) → Risk identification, impact, and mitigation  
-- [`Test_Summary_Report.md`](./Test_Summary_Report.md) → End-of-sprint QA summary and metrics  
-- [`Test_Cases/`](./Test_Cases/) → Functional (`Functional_Test_Cases.md`) and non-functional (`NonFunctional_Test_Cases.md`) test cases  
-- [`Execution/`](./Execution/) → Bug reports (`Bug_Reports.md`) and test execution results (`Test_Execution_Results.md`)  
-- [`Checklists/`](./Checklists/) → Smoke (`Smoke_Checklist.md`) and regression (`Regression_Checklist.md`) checklists  
-- [`Diagrams/`](./Diagrams/) → QA lifecycle visuals (SDLC, V-Model, Defect Lifecycle)  
 
----
+1. **Start with the Overview**  
+   - [`README.md`](./README.md) → Understand the folder’s purpose, structure, and high-level approach  
+
+2. **Check Requirements**  
+   - [`Requirements.md`](./Requirements.md) → See what features and functionality are assumed for testing  
+
+3. **Review the Test Plan**  
+   - [`Test_Plan.md`](./Test_Plan.md) → Learn about QA strategy, scope, roles, environment, and approach  
+
+4. **Look at Test Data**  
+   - [`Test_Data.md`](./Test_Data.md) → Reference the input data used for executing test cases  
+
+5. **See Traceability**  
+   - [`Traceability_Matrix.md`](./Traceability_Matrix.md) → Understand how requirements map to test cases and defects  
+
+6. **Consider Risks**  
+   - [`Risk_Assessment.md`](./Risk_Assessment.md) → Check identified risks, their impact, and mitigation  
+
+7. **Explore Test Cases**  
+   - [`Test_Cases/`](./Test_Cases/) → Functional (`Functional_Test_Cases.md`) and non-functional (`NonFunctional_Test_Cases.md`) test cases  
+
+8. **Check Execution Results**  
+   - [`Execution/`](./Execution/) → Bug reports (`Bug_Reports.md`) and test execution outcomes (`Test_Execution_Results.md`)  
+
+9. **Use Checklists**  
+   - [`Checklists/`](./Checklists/) → Smoke (`Smoke_Checklist.md`) and regression (`Regression_Checklist.md`) checklists for quick verification  
+
+10. **Visualize the Process**  
+    - [`Diagrams/`](./Diagrams/) → QA lifecycle diagrams: SDLC, V-Model, Defect Lifecycle  
+
+11. **Finish with Summary**  
+    - [`Test_Summary_Report.md`](./Test_Summary_Report.md) → End-of-sprint summary, metrics, and readiness for release
+
 
 ## 📂 Key Artifacts in This Folder  
 | File/Folder | Description |  
