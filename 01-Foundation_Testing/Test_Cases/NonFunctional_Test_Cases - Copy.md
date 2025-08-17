@@ -1,53 +1,29 @@
-# 01 – Foundation Testing  
-
-## 📌 Overview  
-This folder demonstrates the **foundations of Quality Assurance and Software Testing** applied on [OpenCart Demo](https://demo.opencart.com/).  
-It combines **manual testing basics** with **end-to-end QA practices**, showing how testing integrates into the **SDLC and Agile sprint cycles**.  
+# Non-Functional Test Cases
+*Performance, Security, and Usability test cases for local OpenCart Demo*
 
 ---
 
-## 💡 Why I Included This  
-A **junior QA/tester** is expected to understand not only *how to test* but also *how QA fits into the bigger picture*.  
-This folder proves I can:  
-- Apply **QA principles** in a real-world context (live demo site)  
-- Deliver a **full QA cycle**: from planning → execution → reporting → closure  
-- Communicate findings clearly with artifacts that mirror a **real QA sprint environment**  
+## 1. Performance
+
+| Test Case ID | Description | Precondition | Steps | Expected Result | Test Data |
+|--------------|------------|-------------|-------|----------------|-----------|
+| NTC-01 | Page Load Speed | OpenCart loaded | 1. Open homepage<br>2. Measure load time | Homepage loads under 3 seconds | N/A |
+| NTC-02 | Search Performance | Product exists | 1. Search “MacBook”<br>2. Measure response | Search results return within 2 seconds | MacBook |
 
 ---
 
-## 🎯 Knowledge Demonstrated  
-- Understanding the **QA process as a whole** (from planning to reporting)  
-- Creating **test plans, test scenarios, test cases, and checklists**  
-- Applying **functional and non-functional test types**  
-- Writing **bug reports** with severity/priority and clear evidence  
-- Building a **requirements traceability matrix (RTM)** to ensure test coverage  
-- Using **QA diagrams** (SDLC, V-Model, Test Process) to connect theory with practice  
-- Showing how QA fits into the **Agile sprint workflow** (planning → execution → review)  
+## 2. Security
+
+| Test Case ID | Description | Precondition | Steps | Expected Result | Test Data |
+|--------------|------------|-------------|-------|----------------|-----------|
+| NTC-03 | SQL Injection Test | Login page loaded | 1. Enter `' OR '1'='1` in email/password fields<br>2. Submit | Application prevents login, no DB compromise | N/A |
+| NTC-04 | Password Strength | Registration page loaded | 1. Enter weak password (e.g., "123")<br>2. Submit | Warning displayed: password too weak | N/A |
 
 ---
 
-## 📌 How to Navigate This Folder  
-- Start with [`Test_Plan.md`](./Test_Plan.md) → high-level QA strategy  
-- Then check [`Test_Cases.md`](./Test_Cases.md) → detailed test cases with steps and expected results  
-- Review [`Bug_Reports.md`](./Bug_Reports.md) → defects logged with screenshots and severity/priority  
-- Explore [`Traceability_Matrix.md`](./Traceability_Matrix.md) → mapping requirements to test cases and defects  
-- Explore [`Diagrams/`](./Diagrams) → QA lifecycle visuals (SDLC, V-Model, Test Process)  
+## 3. Usability
 
----
-
-## 📂 Key Artifacts in This Folder  
-| File/Folder | Description |  
-|-------------|-------------|  
-| [Test_Plan.md](./Test_Plan.md) | QA objectives, scope, approach, and responsibilities |  
-| [Test_Cases.md](./Test_Cases.md) | Structured test cases applied on OpenCart demo site |  
-| [Bug_Reports.md](./Bug_Reports.md) | Example defects with evidence and categorization |  
-| [Traceability_Matrix.md](./Traceability_Matrix.md) | Requirement-to-test coverage and defect mapping |  
-| [Diagrams/](./Diagrams) | QA lifecycle diagrams: SDLC, V-Model, Test Process |  
-
----
-
-## 🛠 Tools I Used  
-- **Markdown** for QA documentation  
-- **Excel/Google Sheets** for structured test cases, bug tracking, and RTM  
-- **Draw.io / Lucidchart** for QA lifecycle diagrams  
-- **Screenshots & annotations** for bug reports  
+| Test Case ID | Description | Precondition | Steps | Expected Result | Test Data |
+|--------------|------------|-------------|-------|----------------|-----------|
+| NTC-05 | Mobile Responsiveness | OpenCart homepage | 1. Open site on mobile<br>2. Check layout | Layout adjusts correctly, all buttons clickable | N/A |
+| NTC-06 | Clear Navigation | Homepage loaded | 1. Navigate main menu categories | Categories load correctly, easy to locate products | N/A |

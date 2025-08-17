@@ -1,127 +1,119 @@
-# OpenCart Demo – Test Plan
-
-## 1. Overview
-This test plan defines the **strategy, scope, and approach** for testing the OpenCart Demo website: https://demo.opencart.com/.  
-It ensures **all functional and non-functional requirements** from `Requirements.md` are covered, based on hands-on testing of the live demo site.
+# Test_Plan.md
+*QA strategy, scope, roles, environment, and approach for local OpenCart testing*
 
 ---
 
-## 2. Objectives
-- Validate that **all critical user flows** work as expected on the demo site.
-- Ensure the website meets **performance, usability, and compatibility requirements**.
-- Identify and report defects with clear evidence (screenshots, descriptions).
-- Provide a **traceable QA process** from requirements to execution.
+## 1. Project Overview
+- **Application:** OpenCart Demo (local setup)  
+- **Purpose:** Demonstrate practical QA skills including **manual, automation, API testing, SQL validation, and CI/CD integration**  
+- **Scope:** Core e-commerce flows including user registration, login, product search, add-to-cart, checkout, and order management
 
 ---
 
-## 3. Scope
-
-### 3.1 In-Scope
-- User account operations: register, login, logout, edit profile
-- Product catalog: browse categories, search, view product details
-- Shopping cart and checkout (simulated payments)
-- Product reviews and ratings
-- Basic non-functional checks: performance, responsiveness, browser compatibility
-
-### 3.2 Out-of-Scope
-- Real payment transactions
-- Dynamic stock management
-- Backend administration panel
-- API testing
+## 2. QA Objectives
+1. Validate **functional requirements** using structured test cases (see `Test_Data.md`)  
+2. Identify and report defects using **industry-standard bug reports**  
+3. Implement **automation scripts** for critical workflows  
+4. Verify **database integrity** using SQL queries  
+5. Test **API endpoints** and validate responses  
+6. Integrate **automation and API tests into CI/CD pipelines**  
+7. Practice **OS and Git commands** relevant to QA tasks  
 
 ---
 
-## 4. Test Approach
-
-### 4.1 Testing Types
-- **Functional Testing**: Verify all requirements (FR001-FR015) on demo site.
-- **Non-Functional Testing**:
-  - Performance: page load, search speed
-  - Usability: navigation, responsiveness
-  - Security: basic checks on login & checkout
-  - Compatibility: latest Chrome, Firefox, Edge
-
-### 4.2 Testing Methods
-- **Manual Testing**: Step-by-step execution of functional test cases on demo site
-- **Exploratory Testing**: Investigate unexpected behaviors and UI issues
-- **Checklists**: Quick verification of smoke and regression flows
+## 3. Test Scope
+- **In Scope:**  
+  - User account flows (registration, login, guest checkout)  
+  - Product catalog (search, add, update)  
+  - Cart and order processes (checkout, cancel, modify)  
+  - API endpoints (product, customer, order)  
+  - Automation and regression testing for critical paths  
+- **Out of Scope:**  
+  - Payment gateway external integrations  
+  - Advanced performance/load testing beyond local setup  
 
 ---
 
-## 5. Test Environment
-- **Website**: https://demo.opencart.com/
-- **Browsers**: Chrome (latest), Firefox (latest), Edge (latest)
-- **Devices**: Desktop and mobile viewport simulation
-- **Tools**: Markdown docs, Draw.io for diagrams, screenshots for bug evidence
+## 4. Test Environment
+- **Local OpenCart setup:** XAMPP/WAMP/MAMP  
+- **Browsers:** Chrome, Firefox, Edge (for cross-browser tests)  
+- **Automation tools:** Selenium WebDriver, TestNG/JUnit  
+- **API tools:** Postman, Newman CLI  
+- **Database:** MySQL (local)  
+- **CI/CD:** Jenkins (local)  
+- **Version Control:** Git  
+
+---
+
+## 5. Test Approach
+### 5.1 Manual Testing
+- Execute test cases from `Test_Data.md`  
+- Record actual results and log defects in Jira-style markdown
+
+### 5.2 Automation Testing
+- Automate login, search, add-to-cart, checkout workflows  
+- Integrate TestNG/JUnit for structured execution  
+- Generate **HTML/Extent Reports**
+
+### 5.3 API Testing
+- Postman collections for GET/POST/PUT/DELETE requests  
+- Automate via Newman CLI  
+- Validate database after API operations
+
+### 5.4 Database Validation
+- Execute SQL queries to validate product, customer, and order data  
+- Ensure data consistency after manual, automation, and API tests
+
+### 5.5 CI/CD Integration
+- Run automation and API tests through Jenkins  
+- Generate reports and notifications for test results
 
 ---
 
 ## 6. Roles & Responsibilities
-| Role | Responsibility |
-|------|----------------|
-| Tester | Execute test cases on demo site, log defects, provide screenshots |
-| Reviewer | Validate test coverage, review bug reports |
-| Product Owner | Review summary report and approve release readiness |
+- **Tester:** Execute all tests, write scripts, log defects, generate reports  
+- **Local Environment Admin :** Setup OpenCart, configure database, manage Jenkins jobs  
 
 ---
 
-## 7. Test Schedule (Demo-Tested)
-
-- **Sprint Duration**: 5 days
-
-**Day 1 – Planning & Test Data**
-- Review `Requirements.md` and verify feature availability on demo site
-- Prepare test data for accounts, products, payment simulation
-- Set up browser and device configurations
-
-**Day 2 – Functional Testing: Account & Product Catalog**
-- Register new account and verify login/logout
-- Edit profile details and validate changes
-- Browse product categories, open product pages, verify price, description, reviews, images
-
-**Day 3 – Functional Testing: Cart & Checkout**
-- Add multiple products to cart
-- Update quantity and remove items
-- Execute checkout using PayPal and simulated credit card flows
-- Submit product reviews and verify visibility
-
-**Day 4 – Non-Functional Testing**
-- Measure homepage and category page load times (Chrome & Firefox)
-- Test mobile responsiveness on various viewport sizes
-- Verify basic security checks on login and checkout
-- Ensure all pages render correctly across browsers
-
-**Day 5 – Regression, Bug Retesting & Summary**
-- Retest previously logged defects
-- Execute smoke and regression checklists
-- Collect screenshots, logs, and compile `Test_Summary_Report.md`
+## 7. Test Deliverables
+- Test Plan (`Test_Plan.md`)  
+- Test Data (`Test_Data.md`)  
+- Test Cases (`Test_Cases/Functional_Test_Cases.md`, `Test_Cases/NonFunctional_Test_Cases.md`)  
+- Bug Reports (`Execution/Bug_Reports.md`)  
+- Automation Scripts (Java/Python)  
+- API Collections (Postman/JSON)  
+- CI/CD Job Configurations (Jenkins)  
+- Traceability Matrix (`Traceability_Matrix.md`)  
+- Test Summary Report (`Test_Summary_Report.md`)  
 
 ---
 
 ## 8. Entry & Exit Criteria
-
-### 8.1 Entry Criteria
-- Requirements document finalized (`Requirements.md`)
-- Test data prepared (`Test_Data.md`)
-- Test environment accessible (browsers, devices, demo site)
-
-### 8.2 Exit Criteria
-- All test cases executed on demo site
-- All critical bugs logged and tracked
-- Test summary report (`Test_Summary_Report.md`) completed
-- Product Owner approval on readiness for release
+**Entry Criteria:**  
+- Local OpenCart fully installed  
+- Test data loaded  
+- Automation framework configured  
+**Exit Criteria:**  
+- All test cases executed  
+- Defects logged and verified  
+- Test summary report completed  
 
 ---
 
-## 9. Deliverables
-- Test cases (`Test_Cases/`)
-- Execution results and bug reports (`Execution/`)
-- Checklists (`Checklists/`)
-- Test summary report (`Test_Summary_Report.md`)
-- Traceability matrix (`Traceability_Matrix.md`)
-- QA diagrams (`Diagrams/`)
+## 9. Risks & Mitigation
+| Risk | Impact | Mitigation |
+|------|-------|-----------|
+| Local OpenCart setup fails | High | Follow installation checklist, use XAMPP/WAMP logs |
+| Automation scripts break | Medium | Use POM, maintain test data consistency |
+| API endpoint changes | Medium | Validate endpoint documentation, update Postman collections |
+| Missing test coverage | High | Map requirements to test cases in Traceability Matrix |
 
 ---
 
-## 10. Risks & Mitigation (Demo-Tested)
-To be edited
+## 10. References
+- [Test_Data.md](./Test_Data.md)  
+- OpenCart Demo: https://demo.opencart.com/  
+- Selenium WebDriver & TestNG/JUnit documentation  
+- Postman & Newman documentation  
+- SQL/MySQL reference guides  

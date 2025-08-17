@@ -25,6 +25,8 @@ This folder proves I can:
 - Using **QA diagrams** (SDLC, V-Model, Defect Lifecycle) to connect theory with practice  
 - Showing how QA fits into the **Agile sprint workflow** (planning → execution → review)  
 
+---
+
 ## 📌 How to Navigate This Folder  
 
 1. **Start with the Overview**  
@@ -60,6 +62,7 @@ This folder proves I can:
 11. **Finish with Summary**  
     - [`Test_Summary_Report.md`](./Test_Summary_Report.md) → End-of-sprint summary, metrics, and readiness for release
 
+---
 
 ## 📂 Key Artifacts in This Folder  
 | File/Folder | Description |  
@@ -81,3 +84,15 @@ This folder proves I can:
 - **Markdown** → Documentation and formatting  
 - **Draw.io** → QA lifecycle diagrams  
 - **Screenshots / Annotations** → Evidence for bug reports and reporting  
+
+---
+
+## 🔗 Quick Links to Key Artifacts
+
+- [Test Plan](./Test_Plan.md)  
+- [Test Data](./Test_Data.md)  
+- [Traceability Matrix](./Traceability_Matrix.md)  
+- [Functional Test Cases](./Test_Cases/Functional_Test_Cases.md)  
+- [Non-Functional Test Cases](./Test_Cases/NonFunctional_Test_Cases.md)  
+- [Bug Reports](./Execution/Bug_Reports.md)  
+- [Test Summary Report](./Test_Summary_Report.md)  
