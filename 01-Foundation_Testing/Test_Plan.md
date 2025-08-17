@@ -124,10 +124,4 @@ It ensures **all functional and non-functional requirements** from `Requirements
 ---
 
 ## 10. Risks & Mitigation (Demo-Tested)
-~~| Risk | Observation / Impact | Mitigation |
-|------|--------------------|------------|
-| Checkout delays on simulated PayPal | Checkout completed in 4–5 seconds on Chrome; Firefox slightly slower (~5s). High impact for user experience. | Document actual load times; retest on multiple browsers; attach screenshots; escalate if consistently >5s. |
-| Homepage load time | Homepage loaded in 2.7–2.9s during manual testing. | Track load times; report any performance degradation; include screenshots in reports. |
-| Mobile layout issues | iPhone 13 viewport shows slight misalignment of “Add to Cart” buttons in product grid. | Capture screenshots; log defects; retest after UI changes. |
-| Product search accuracy | Keyword “iPhone” returned relevant products; typo searches returned no results. | Test multiple keywords; document mismatches; suggest improvements. |
-| Navigation / broken links | All main menu and footer links functional except “Returns” link on mobile. | Log defect in `Execution/Bug_Reports.md`; verify fix during regression. |~~
+To be edited
