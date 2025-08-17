@@ -79,6 +79,5 @@ This folder proves I can:
 
 ## 🛠 Tools I Used  
 - **Markdown** → Documentation and formatting  
-- **Excel / Google Sheets** → Test case management, checklists, bug tracking, and traceability matrix  
-- **Draw.io / Lucidchart** → QA lifecycle diagrams  
+- **Draw.io** → QA lifecycle diagrams  
 - **Screenshots / Annotations** → Evidence for bug reports and reporting  
