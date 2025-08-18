@@ -81,7 +81,7 @@ This folder shows that I can apply QA principles on a real demo site, deliver a 
 ## 🛠 Tools I Used  
 - **Markdown** → Documentation and formatting  
 - **Draw.io** → QA lifecycle diagrams  
-- **Screenshots / Annotations** → Evidence for bug reports and reporting  
+
 
 ---
 
