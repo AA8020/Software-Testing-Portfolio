@@ -72,7 +72,7 @@ To explore this portfolio:
 - Linux & Windows command-line tasks  
 - Git branching, merging, and pull requests  
 
-### [08 – Real-World QA Projects](./08-Real_World_QA_Projects/README.md)
+### [08 – Real-World QA Projects](./08-Real_World_Projects/README.md)
 - End-to-end projects covering **manual, automation, and API testing**  
 
 ---
