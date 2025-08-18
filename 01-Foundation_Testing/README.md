@@ -7,7 +7,7 @@ This section showcases the **foundations of Quality Assurance and Software Testi
 ---
 
 ## 💡 Why I Included This  
-As a junior QA/tester, I know it’s not just about *running tests*, it’s about understanding how QA fits into the bigger picture.  
+As a QA/tester, I know it’s not just about *running tests*, it’s about understanding how QA fits into the bigger picture.  
 This folder shows that I can apply QA principles on a real demo site, deliver a full QA cycle from planning to execution, reporting, and closure, and communicate findings clearly with artifacts that feel like a real QA sprint.  
  
 
