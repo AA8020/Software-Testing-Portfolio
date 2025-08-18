@@ -31,7 +31,7 @@ To explore this portfolio:
 
 **Quick Links:**
 - [01 – Foundation Testing](./01-Foundation_Testing/README.md)
-- [02 – Bug Reports (Tools)](./02-Bug_Reports/README.md)
+- [02 – QA Tools](./02-QA_Tools/README.md)
 - [03 – Programming for Automation & OOP](./03-Programming_for_Automation/README.md)
 - [04 – Test Automation Frameworks](./04-Test_Automation_Frameworks/README.md)
 - [05 – API Testing](./05-API_Testing/README.md)
@@ -49,7 +49,7 @@ To explore this portfolio:
 - Provides **visual diagrams** illustrating the **Software Testing Life Cycle (STLC)** and **Defect Life Cycle**
 
 
-### [02 – Bug Reports](./02-Bug_Reports/README.md)
+### [02 – QA Tools](./02-QA_Tools/README.md)
 - Industry-standard bug reporting format  
 - Jira-style markdown examples with severity, priority, and reproduction steps  
 
