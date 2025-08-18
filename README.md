@@ -68,11 +68,8 @@ To explore this portfolio:
 ### [06 – CI/CD Pipelines](./06-CI_CD_Pipelines/README.md)
 - Jenkins jobs integrating automation & API tests  
 
-### [07 – OS and Git Practice](./07-OS_and_Git_Practice/README.md)
-- Linux & Windows command-line tasks  
-- Git branching, merging, and pull requests  
 
-### [08 – Real-World QA Projects](./08-Real_World_Projects/README.md)
+### [Real-World QA Projects](./08-Real_World_Projects/README.md)
 - End-to-end projects covering **manual, automation, and API testing**  
 
 ---
