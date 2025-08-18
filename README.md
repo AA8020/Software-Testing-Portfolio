@@ -14,7 +14,7 @@
 - [About Me](#-about-me)
 - [Getting Started](#-getting-started)
 - [Portfolio Structure & Highlights](#️-portfolio-structure--highlights)
-- [Why This Portfolio Stands Out](#-why-this-portfolio-stands-out)
+- [What I Bring to the Table](#-what-i-bring-to-the-table)
 - [Contact](#-contact)
 ---
 
