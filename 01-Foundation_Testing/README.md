@@ -25,7 +25,7 @@ This section shows that I can apply QA principles on a real demo site, deliver a
 
 ---
 
-## 📌 How to Navigate This Folder  
+## 📌 How to Navigate 
 
 1. **Start with the Overview**  
    - [`README.md`](./README.md) → Understand the folder’s purpose, structure, and high-level approach  
@@ -62,7 +62,7 @@ This section shows that I can apply QA principles on a real demo site, deliver a
 
 ---
 
-## 📂 Key Artifacts in This Folder  
+## 📂 Key Artifacts
 | File/Folder | Description |  
 |-------------|-------------|  
 | [`Requirements.md`](./Requirements.md) | Assumed requirements for OpenCart Demo features |  
@@ -78,14 +78,14 @@ This section shows that I can apply QA principles on a real demo site, deliver a
 
 ---
 
-## 🛠 Tools I Used  
+## 🛠 Tools Used  
 - **Markdown** → Documentation and formatting  
 - **Draw.io** → QA lifecycle diagrams  
 
 
 ---
 
-## 🔗 Quick Links to Key Artifacts
+## 🔗 Quick Links
 
 - [Test Plan](./Test_Plan.md)  
 - [Test Data](./Test_Data.md)  

@@ -1,31 +1,32 @@
+# 02 – Test & Bug Management  
 
-# 02 – Bug Reports
-
-## 📌 Overview
-This folder demonstrates my understanding of industry-standard bug reporting and defect management. It includes examples of how to document, categorize, and communicate software defects in a professional QA workflow.
-
----
-
-## 🎯 Knowledge Demonstrated
-Here, I illustrate:
-- How to write clear, actionable bug reports with severity, priority, and reproducible steps
-- The use of standardized formats for defect documentation
-- Methods for tracking and managing defects throughout their lifecycle
-- The importance of effective communication between testers, developers, and stakeholders
+## 📌 Overview  
+This folder showcases **industry-standard test case creation and bug reporting** using **Zephyr Scale (Jira), Jira, and TestRail**.  
+It demonstrates how to write, organize, and track multiple test cases and defects on the [OpenCart Demo](https://demo.opencart.com/), emphasizing professional QA workflows and execution tracking.
 
 ---
 
-## 📂 Files in This Folder
-| File | Description |
-|------|-------------|
-| bug-report-example.md | Example of a detailed, industry-standard bug report |
+## 💡 Why I Included This  
+This section shows that I can:  
+- Create and manage multiple test cases in professional tools  
+- Report and track defects clearly for quick resolution  
+- Apply QA principles in structured workflows  
+- Communicate findings effectively to developers and stakeholders  
 
 ---
 
-## 💡 Why I Included This
-Accurate and thorough bug reporting is essential for efficient software development and quality assurance. This folder is structured to demonstrate my knowledge of:
+## 📌 How to Navigate  
 
-- Documenting defects in a way that supports quick resolution
-- Categorizing and prioritizing bugs for maximum impact
-- Communicating issues clearly to technical and non-technical audiences
+1. **Zephyr Test Cases** → [`Test_Cases/zephyr-test-cases.md`](./Test_Cases/zephyr-test-cases.md)  
+2. **TestRail Test Cases** → [`Test_Cases/testrail-test-cases.md`](./Test_Cases/testrail-test-cases.md)  
+3. **Jira Bug Reports** → [`Bug_Reports/jira-bugs.md`](./Bug_Reports/jira-bugs.md)  
+4. **Execution Summary** → [`Execution_Results/execution-summary.md`](./Execution_Results/execution-summary.md)  
+5. **Screenshots** → [`Screenshots/`](./Screenshots/)  
 
+---
+
+## 🛠 Tools Used  
+- **Zephyr Scale (Jira)** → Test case creation and management  
+- **TestRail** → Organizing and tracking test cases  
+- **Jira** → Defect reporting, tracking, and lifecycle management  
+- **Markdown** → Documentation formatting
