@@ -8,7 +8,8 @@ Showcasing end-to-end QA projects combining manual, automation, and API testing 
 ## 🛠 Projects  
 
 ### Project 1 – BetterImages AI Web Application (betterimages.ai)  
-- Led full-cycle manual testing (functional, usability, responsiveness, non-functional) on real devices  
+- Conducted full-cycle manual testing (functional, usability, responsiveness, and non-functional) using **BrowserStack** for real-device coverage.  
+ 
 - Built a [test coverage matrix](https://docs.google.com/spreadsheets/d/14iXE1QUBVqdP-had8_gDeONP2kM3eVUPWGcMlJwNe_o/edit?gid=227020037#gid=227020037) across 15+ pages  
 - Logged bugs with steps, screenshots, severity, and remediation notes  
 - Verified fixes and delivered a final QA report with UX, performance, and security recommendations  
