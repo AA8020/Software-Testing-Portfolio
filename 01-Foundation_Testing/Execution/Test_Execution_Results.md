@@ -12,3 +12,4 @@
 | TC-NF01 | Performance | Pass | <3s |
 | TC-NF02 | Browser Compatibility | Pass | All supported |
 | TC-NF03 | Security | Pending | Needs deeper test |
+| TC-NF04 | Usability | Pending | Not tested yet |

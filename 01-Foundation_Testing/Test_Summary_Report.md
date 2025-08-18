@@ -11,10 +11,11 @@ Summarize QA cycle execution for OpenCart on local XAMPP.
 - Regression & Smoke testing.
 
 ## 3. Execution Summary
-- Total Test Cases: 12
-- Passed: 8
+Total
+-  Test Cases: 10
+- Passed: 5
 - Failed: 2
-- Pending: 2
+- Pending: 3
 
 ## 4. Major Bugs
 - **B01**: Cart not updating after removal (Critical).
