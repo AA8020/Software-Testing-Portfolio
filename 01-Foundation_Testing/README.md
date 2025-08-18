@@ -1,17 +1,15 @@
 # 01 – Foundation Testing  
 
 ## 📌 Overview  
-This repository demonstrates the **foundations of Quality Assurance and Software Testing** applied on [OpenCart Demo](https://demo.opencart.com/).  
-It combines **manual testing basics** with **end-to-end QA practices**, showing how testing integrates into the **SDLC** and is delivered iteratively through **Agile-style sprint cycles** (requirements → test planning → execution → reporting).  
+This repository showcases the **foundations of Quality Assurance and Software Testing** applied on [OpenCart Demo](https://demo.opencart.com/). It combines **manual testing basics** with **end-to-end QA practices**, demonstrating how testing fits into the **SDLC** and is delivered through **Agile sprint cycles** (requirements → planning → execution → reporting). It includes both **executed test cases** (reproducible on the demo with results) and **conceptual test cases** (not always reproducible, but designed to illustrate QA principles, test design, and documentation standards).
+
 
 ---
 
 ## 💡 Why I Included This  
-A **junior QA/tester** is expected to understand not only *how to test* but also *how QA fits into the bigger picture*.  
-This folder proves I can:  
-- Apply **QA principles** in a real-world context (live demo site)  
-- Deliver a **full QA cycle**: from planning → execution → reporting → closure  
-- Communicate findings clearly with artifacts that mirror a **real QA sprint environment**  
+As a junior QA/tester, I know it’s not just about *running tests*, it’s about understanding how QA fits into the bigger picture.  
+This folder shows that I can apply QA principles on a real demo site, deliver a full QA cycle from planning to execution, reporting, and closure, and communicate findings clearly with artifacts that feel like a real QA sprint.  
+ 
 
 ---
 

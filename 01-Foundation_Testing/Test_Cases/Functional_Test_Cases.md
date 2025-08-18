@@ -8,7 +8,6 @@
   3. Submit form.
 - **Expected Result**: Account created successfully, confirmation email sent.
 - **Priority**: High
-- **Severity (if fails)**: Critical
 
 ---
 
