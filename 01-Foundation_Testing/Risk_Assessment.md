@@ -1,4 +1,6 @@
 # Risk Assessment – OpenCart Demo
+Identifies product risks and assigns **priority levels** for testing.  
+Helps focus testing effort on the most critical areas.  
 
 | Risk ID | Description | Impact | Probability | Mitigation |
 |---------|-------------|--------|-------------|------------|

@@ -1,4 +1,6 @@
 # Requirements Traceability Matrix (RTM)
+Maps **requirements** to **test cases**, ensuring complete coverage  
+and no missed functionality.  
 
 | Req ID | Requirement | Test Case IDs | Status |
 |--------|-------------|---------------|--------|

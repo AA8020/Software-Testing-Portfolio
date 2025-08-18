@@ -1,5 +1,8 @@
 # Requirements – OpenCart Demo (Local XAMPP)
 
+Outlines the **assumed requirements** for OpenCart Demo features,  
+used as a baseline for test design and traceability.  
+
 ## 📌 Functional Requirements
 1. **User Management**
    - Register new user with mandatory fields (name, email, password).

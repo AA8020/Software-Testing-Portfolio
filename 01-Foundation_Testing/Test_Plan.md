@@ -40,7 +40,7 @@ This Test Plan defines the scope, objectives, strategy, and resources required f
 
 ## 8. Deliverables
 - [Test Plan](./Test_Plan.md)  
-- [Test Cases (Functional & Non-Functional)](./Test_Cases.md)  
+- [Test Cases (Functional & Non-Functional)](./Test_Cases)  
 - [Test Data](./Test_Data.md)  
 - [Traceability Matrix](./Traceability_Matrix.md)  
 - [Bug Reports](./Execution)  

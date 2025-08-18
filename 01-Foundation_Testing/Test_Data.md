@@ -1,4 +1,6 @@
 # Test Data – OpenCart Demo
+Contains the **input data sets** used during test execution,  
+ensuring repeatability and consistency of tests.  
 
 | ID  | Data Type         | Example Value            | Purpose |
 |-----|-------------------|--------------------------|---------|
