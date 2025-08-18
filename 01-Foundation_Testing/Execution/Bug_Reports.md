@@ -9,7 +9,7 @@ Each bug entry contains **ID, severity, priority, steps, and status**, tracked w
 - **Actual**: Product still displayed
 - **Severity**: High
 - **Priority**: P1
-- **Evidence**: Screenshot link
+
 
 ---
 
