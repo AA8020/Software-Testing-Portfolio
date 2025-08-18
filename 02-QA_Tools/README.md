@@ -21,7 +21,6 @@ This section shows that I can:
 2. **TestRail Test Cases** → [`Test_Cases/testrail-test-cases.md`](./Test_Cases/testrail-test-cases.md)  
 3. **Jira Bug Reports** → [`Bug_Reports/jira-bugs.md`](./Bug_Reports/jira-bugs.md)  
 4. **Execution Summary** → [`Execution_Results/execution-summary.md`](./Execution_Results/execution-summary.md)  
-5. **Screenshots** → [`Screenshots/`](./Screenshots/)  
 
 ---
 
