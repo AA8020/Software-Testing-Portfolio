@@ -75,9 +75,9 @@ To explore this portfolio:
 ---
 
 ## 💡 What I Bring to the Table  
-This portfolio highlights my growth and practical skills as an **ISTQB® Certified Tester**.  
+I am an **ISTQB® Certified Tester** with hands-on experience that goes beyond just **running tests**. I understand how **QA** fits into the **bigger picture**, a skill not many testers have, and I use it to ensure quality is built into every stage of the process.  
 
-I understand that testing is not just about **running tests** but about seeing how **QA** fits into the **bigger picture**, which is a skill not many testers possess. Through real-world examples, clear documentation, and a combination of manual testing, automation, and DevOps practices, I demonstrate the ability to deliver the full QA cycle from planning to execution, reporting, and closure, while communicating findings effectively and making a real impact in QA teams.
+Through real-world projects, clear documentation, and a mix of manual testing, automation, and DevOps practices, I can deliver the full QA cycle from planning to execution, reporting, and closure, while communicating findings clearly and driving real impact in QA teams.  
 
 
 
