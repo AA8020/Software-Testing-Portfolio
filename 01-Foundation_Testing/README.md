@@ -57,7 +57,7 @@ This folder proves I can:
    - [`Checklists/`](./Checklists/) → Smoke (`Smoke_Checklist.md`) and regression (`Regression_Checklist.md`) checklists for quick verification  
 
 10. **Visualize the Process**  
-    - [`Diagrams/`](./Diagrams/) → QA lifecycle diagrams: SDLC, V-Model, Defect Lifecycle  
+    - [`Diagrams/`](./Diagrams/) → QA lifecycle diagrams: STLC, Defect Life Cycle  
 
 11. **Finish with Summary**  
     - [`Test_Summary_Report.md`](./Test_Summary_Report.md) → End-of-sprint summary, metrics, and readiness for release
@@ -76,7 +76,7 @@ This folder proves I can:
 | [`Checklists/`](./Checklists/) | Smoke and regression checklists |  
 | [`Risk_Assessment.md`](./Risk_Assessment.md) | Identified risks with impact and mitigation |  
 | [`Test_Summary_Report.md`](./Test_Summary_Report.md) | Summary of test execution, pass/fail metrics, and release readiness |  
-| [`Diagrams/`](./Diagrams/) | QA lifecycle diagrams: SDLC, V-Model, Defect Lifecycle |  
+| [`Diagrams/`](./Diagrams/) | QA lifecycle diagrams: STLC, Defect Life Cycle |  
 
 ---
 
