@@ -1,8 +1,8 @@
 # 01 – Foundation Testing  
 
 ## 📌 Overview  
-This folder demonstrates the **foundations of Quality Assurance and Software Testing** applied on [OpenCart Demo](https://demo.opencart.com/).  
-It combines **manual testing basics** with **end-to-end QA practices**, showing how testing integrates into the **SDLC and Agile sprint cycles**.  
+This repository demonstrates the **foundations of Quality Assurance and Software Testing** applied on [OpenCart Demo](https://demo.opencart.com/).  
+It combines **manual testing basics** with **end-to-end QA practices**, showing how testing integrates into the **SDLC** and is delivered iteratively through **Agile-style sprint cycles** (requirements → test planning → execution → reporting).  
 
 ---
 

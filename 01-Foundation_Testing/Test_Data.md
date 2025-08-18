@@ -1,6 +1,7 @@
 # Test Data – OpenCart Demo
-Contains the **input data sets** used during test execution,  
-ensuring repeatability and consistency of tests.  
+Contains **input datasets** (valid, invalid, boundary, edge cases) required to execute test cases.  
+Supports **consistent test coverage** across **Agile sprints**.  
+ 
 
 | ID  | Data Type         | Example Value            | Purpose |
 |-----|-------------------|--------------------------|---------|

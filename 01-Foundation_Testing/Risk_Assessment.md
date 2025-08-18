@@ -1,6 +1,7 @@
 # Risk Assessment – OpenCart Demo
-Identifies product risks and assigns **priority levels** for testing.  
-Helps focus testing effort on the most critical areas.  
+Captures **potential risks** (technical, business, operational) and proposed **mitigations**.  
+Risks are **reassessed** in each **Agile sprint cycle**.  
+
 
 | Risk ID | Description | Impact | Probability | Mitigation |
 |---------|-------------|--------|-------------|------------|

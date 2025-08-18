@@ -1,4 +1,6 @@
 # Test Plan – OpenCart Demo (Local XAMPP)
+Outlines the **overall test plan** including **scope, objectives, approach, roles, environments, risks, and deliverables**.  
+Acts as a **living document** updated across **Agile sprints**.  
 
 ## 1. Introduction
 This Test Plan defines the scope, objectives, strategy, and resources required for testing OpenCart running locally on a XAMPP server. The goal is to ensure that both functional and non-functional requirements are met.

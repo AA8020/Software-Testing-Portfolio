@@ -1,6 +1,6 @@
 # Test Summary Report – OpenCart Demo
-Final document summarizing **test execution results**,  
-defect statistics, and overall product quality evaluation.  
+Provides **test summary reports** that capture **activities, results, coverage, defect trends, and exit criteria**.  
+Reports are generated at the end of **sprints/releases**.  
 
 ## 1. Objective
 Summarize QA cycle execution for OpenCart on local XAMPP.

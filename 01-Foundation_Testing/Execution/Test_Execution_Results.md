@@ -1,4 +1,5 @@
 # Test Execution Results – OpenCart Demo
+ Demonstrates **continuous testing** across **Agile sprints**.  
 
 | Test Case ID | Description | Status | Notes |
 |--------------|-------------|--------|-------|

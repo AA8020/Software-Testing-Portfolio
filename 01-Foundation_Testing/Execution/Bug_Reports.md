@@ -1,4 +1,6 @@
 # Bug Reports – OpenCart Demo
+Provides **sample defect reports** raised during testing.  
+Each bug entry contains **ID, severity, priority, steps, and status**, tracked within **Agile sprint cycles**.  
 
 ## Bug ID: B01
 - **Title**: Cart not updating after product removal

@@ -1,6 +1,7 @@
 # Requirements Traceability Matrix (RTM)
-Maps **requirements** to **test cases**, ensuring complete coverage  
-and no missed functionality.  
+Maintains the **requirement-to-test mapping**, ensuring **end-to-end coverage**.  
+Evolves alongside the **product backlog** and is maintained throughout **Agile sprints**.  
+
 
 | Req ID | Requirement | Test Case IDs | Status |
 |--------|-------------|---------------|--------|

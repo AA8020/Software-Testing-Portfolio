@@ -1,4 +1,4 @@
 # Test Cases  
 
-Contains detailed **functional and non-functional test cases**.  
-Each case includes: Preconditions, Steps, Expected Results, and Status.  
+Includes **detailed test cases** covering both **functional** and **non-functional** aspects of the [OpenCart Demo](https://demo.opencart.com/).  
+Designed and executed **iteratively** across **Agile sprint cycles**.  

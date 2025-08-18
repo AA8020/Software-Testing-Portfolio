@@ -1,7 +1,8 @@
 # Requirements – OpenCart Demo (Local XAMPP)
 
-Outlines the **assumed requirements** for OpenCart Demo features,  
-used as a baseline for test design and traceability.  
+Documents the **assumed business and functional requirements** of the [OpenCart Demo](https://demo.opencart.com/).  
+Provides a baseline for **test design** and **traceability**, ensuring coverage across **Agile sprint cycles**.  
+ 
 
 ## 📌 Functional Requirements
 1. **User Management**
