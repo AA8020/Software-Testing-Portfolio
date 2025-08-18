@@ -36,8 +36,8 @@ To explore this portfolio:
 - [04 – Test Automation Frameworks](./04-Test_Automation_Frameworks/README.md)
 - [05 – API Testing](./05-API_Testing/README.md)
 - [06 – CI/CD Pipelines](./06-CI_CD_Pipelines/README.md)
-- [07 – OS and Git Practice](./07-OS_and_Git_Practice/README.md)
-- [08 – Real World QA Projects](./08-Real_World_QA_Projects/README.md)
+
+- [Real World QA Projects](./08-Real_World_QA_Projects/README.md)
 
 ---
 
@@ -74,7 +74,7 @@ To explore this portfolio:
 
 ---
 
-💡 Why This Portfolio Stands Out  
+## 💡 Why This Portfolio Stands Out  
 This portfolio highlights my growth and practical skills as an **ISTQB® Certified Tester Foundation Level v4 (CTFL)**.  
 I understand that testing is not just about **running tests** but about seeing how **QA** fits into the bigger picture. Through real-world examples, clear documentation, and a combination of manual testing, automation, and DevOps practices, I demonstrate the ability to deliver the full QA cycle from planning to execution, reporting, and closure, while communicating findings effectively and showing readiness to make an impact in professional QA teams.  
 
