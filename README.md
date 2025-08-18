@@ -74,7 +74,6 @@ To explore this portfolio:
 
 ### [08 – Real-World QA Projects](./08-Real_World_QA_Projects/README.md)
 - End-to-end projects covering **manual, automation, and API testing**  
-- Full software testing lifecycle simulation  
 
 ---
 
