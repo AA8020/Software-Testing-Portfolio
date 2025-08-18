@@ -19,7 +19,7 @@
 ---
 
 ## 👤 About Me
-I am an aspiring software tester and **ISTQB® Certified Tester Foundation Level v4 (CTFL)** holder with a strong foundation in software testing principles and a passion for continuous learning. My skills include manual testing, basic automation, API validation, and an understanding of CI/CD concepts. I am committed to delivering reliable results, collaborating effectively with teams, and applying my knowledge in real-world projects. This portfolio demonstrates my attention to detail, problem-solving mindset, and readiness to grow into a professional software testing role.
+I am an **ISTQB® CTFL v4 certified software tester** with a strong foundation in testing principles and a passion for continuous learning. My experience includes **manual testing, basic automation, API validation**, and familiarity with **CI/CD concepts**. I focus on delivering reliable results, collaborating effectively, and applying my skills to real-world projects. This portfolio highlights my **attention to detail, problem-solving mindset**, and readiness to grow as a professional tester.
 
 ---
 
@@ -74,10 +74,8 @@ To explore this portfolio:
 
 ---
 
-## 💡 What I Bring to the Table  
-I am an **ISTQB® Certified Tester** with hands-on experience that goes beyond just **running tests**. I understand how **QA** fits into the **bigger picture**, a skill not many testers have, and I use it to ensure quality is built into every stage of the process.  
-
-Through real-world projects, clear documentation, and a mix of manual testing, automation, and DevOps practices, I can deliver the full QA cycle from planning to execution, reporting, and closure, while communicating findings clearly and driving real impact in QA teams.  
+## 💡 What I Bring to the Table
+I go beyond just running tests. I understand how **QA fits into the bigger picture** and use this perspective to ensure quality is built into every stage of development. Through **real-world projects, clear documentation, and a mix of manual testing, automation, and DevOps practices**, I can manage the full QA cycle from planning to execution, reporting, and closure while driving real impact in QA teams.
 
 
 
