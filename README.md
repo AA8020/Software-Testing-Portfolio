@@ -69,7 +69,7 @@ To explore this portfolio:
 - Jenkins jobs integrating automation & API tests  
 
 
-### [Real-World QA Projects](./08-Real_World_Projects/README.md)
+### [Real-World QA Projects](./Real_World_Projects/README.md)
 - End-to-end projects covering **manual, automation, and API testing**  
 
 ---
