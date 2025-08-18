@@ -2,5 +2,9 @@
 
 Contains **visual diagrams** to illustrate the QA lifecycle and defect workflow.  
 
-- **STLC Diagram** → Full Software Testing Life Cycle.  
-- **Defect Life Cycle** → Workflow of a bug from discovery to closure.  
+
+## How This Fits in QA
+Diagrams provide visual context for QA processes and help communicate workflows and lifecycles to stakeholders.
+
+## Related & Navigation
+- [Back to Foundation Testing Overview](../README.md)
