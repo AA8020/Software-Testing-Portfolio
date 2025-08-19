@@ -19,7 +19,7 @@
 ---
 
 ## 👤 About Me
-I am an **ISTQB® CTFL v4 certified software tester** with a strong foundation in testing principles and a passion for continuous learning. My experience includes **manual testing, basic automation, API validation**, and familiarity with **CI/CD concepts**. I focus on delivering reliable results, collaborating effectively, and applying my skills to real-world projects. This portfolio highlights my **attention to detail, problem-solving mindset**, and readiness to grow as a professional tester.
+An **ISTQB® CTFL v4 certified software tester** with a strong foundation in testing principles and a passion for continuous learning. My experience includes **manual testing, basic automation, API validation**, and familiarity with **CI/CD concepts**. I focus on delivering reliable results, collaborating effectively, and applying my skills to real-world projects. This portfolio highlights my **attention to detail, problem-solving mindset**, and readiness to grow as a professional tester.
 
 ---
 
