@@ -19,9 +19,9 @@ This section shows that I can:
 
 1. **Test Cases** (Zephyr) → [`Test_Cases/zephyr-test-cases.md`](./Test_Cases/zephyr-test-cases.md)  
 2. **Bug Reports** (Jira) → [`Bug_Reports/jira-bugs.md`](./Bug_Reports/jira-bugs.md)  
-3. **Bug Reports** (Azure DevOps) → [`Bug_Reports/azure_devops.md`](./Bug_Reports/azure-bugs.md)  
+3. **Bug Reports** (Azure DevOps) → [`Bug_Reports/azure_devops.md`](./Bug_Reports/azure_devops.md)  
 
----  
+---
 
 ## 🛠 Tools Used  
 - **Zephyr Scale (Jira)** → Test case creation and management  
