@@ -44,14 +44,23 @@ To explore this portfolio:
 ## 🗂️ Portfolio Structure & Highlights
 
 ### [01 – Foundation Testing](./01-Foundation_Testing/README.md)
-- Demonstrates **foundations of Quality Assurance and Software Testing** on a live website ([OpenCart Demo](https://demo.opencart.com/))  
-- Includes **Test Plans, structured Test Cases, and Defect Reports** reflecting real QA execution  
-- Provides **visual diagrams** illustrating the **Software Testing Life Cycle (STLC)** and **Defect Life Cycle**
+- Demonstrates **foundations of QA & Software Testing** on the live [OpenCart Demo](https://demo.opencart.com/)  
+- Covers the **full QA cycle**: requirements → planning → test design → execution → reporting  
+- Includes **test plans, structured test cases, and bug reports** with evidence and severity/priority levels  
+- Provides **traceability matrix** to ensure test coverage against requirements  
+- Showcases **risk assessment, test summary reports, and QA checklists** (smoke & regression)  
+- Uses **visual diagrams** (STLC, Defect Lifecycle) to connect theory with practice  
+- Simulates an **Agile sprint workflow**, showing how QA integrates into iterative development  
+
 
 
 ### [02 – QA Tools](./02-QA_Tools/README.md)
-- Industry-standard bug reporting format  
-- Jira-style markdown examples with severity, priority, and reproduction steps  
+- Showcases **test case management and defect reporting** using **Zephyr Scale, Jira, and Azure DevOps**  
+- Demonstrates how to **write, organize, and track multiple test cases** in professional QA tools  
+- Includes **bug reports with severity, priority, reproduction steps, and attachments** for clarity  
+- Highlights **cross-tool workflows**, showing how defects are tracked and communicated across platforms  
+- Emphasizes **professional QA documentation practices** with structured Markdown formatting  
+ 
 
 ### [03 – Programming for Automation](./03-Programming_for_Automation/README.md)
 - Java & Python automation scripts  
