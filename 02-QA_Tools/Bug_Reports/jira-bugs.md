@@ -11,6 +11,7 @@
 **Severity:** Critical  
 **Status:** Open  
 
+![Jira Screenshot](../Screenshots/Jira/login.png)  
 ---
 
 ### BUG-J002: Cart total not updating
@@ -22,6 +23,7 @@
 **Actual Result:** Total remains unchanged  
 **Severity:** High  
 **Status:** Open  
+![Jira Screenshot](../Screenshots/Jira/cart.png)  
 
 ---
 
@@ -34,6 +36,7 @@
 **Actual Result:** Page throws error  
 **Severity:** High  
 **Status:** Open  
+![Jira Screenshot](../Screenshots/Jira/checkout.png)  
 
 ---
 
@@ -46,3 +49,4 @@
 **Actual Result:** Irrelevant items displayed  
 **Severity:** Medium  
 **Status:** Open
+![Jira Screenshot](../Screenshots/Jira/search.png)  
