@@ -15,4 +15,3 @@
 | BUG-J002: Cart total | Jira | Open | Needs fix |
 | BUG-J003: Checkout | Jira | Open | Needs fix |
 | BUG-J004: Search | Jira | Open | Needs fix |
-s
