@@ -5,10 +5,7 @@
 	<a href="https://www.jenkins.io/"><img src="https://img.shields.io/badge/Jenkins-CI/CD-red" alt="Jenkins"></a>
 </p>
 
-
 # 🧪 Software Testing Portfolio
-
-
 
 ## 📑 Table of Contents
 - [About Me](#-about-me)
@@ -16,10 +13,11 @@
 - [Portfolio Structure & Highlights](#️-portfolio-structure--highlights)
 - [What I Bring to the Table](#-what-i-bring-to-the-table)
 - [Contact](#-contact)
+
 ---
 
 ## 👤 About Me
-An **ISTQB® CTFL v4 certified software tester** with a strong foundation in testing principles and a passion for continuous learning. My experience includes **manual testing, basic automation, API validation**, and familiarity with **CI/CD concepts**. I focus on delivering reliable results, collaborating effectively, and applying my skills to real-world projects. This portfolio highlights my **attention to detail, problem-solving mindset**, and readiness to grow as a professional tester.
+An **ISTQB® CTFL v4 certified software tester** with a strong foundation in testing principles and a passion for continuous learning. My experience includes **manual testing, test automation, API validation**, and familiarity with **CI/CD practices**. I focus on delivering reliable results, collaborating effectively, and applying my skills to real-world projects. This portfolio highlights my **attention to detail, problem-solving mindset**, and readiness to grow as a professional tester.
 
 ---
 
@@ -30,64 +28,55 @@ To explore this portfolio:
 3. **Review sample scripts and plans** to see real-world testing deliverables.
 
 **Quick Links:**
-- [01 – Foundation Testing](./01-Foundation_Testing/README.md)
-- [02 – QA Tools](./02-QA_Tools/README.md)
-- [03 – Programming for Automation & OOP](./03-Programming_for_Automation/README.md)
-- [04 – Test Automation Frameworks](./04-Test_Automation_Frameworks/README.md)
-- [05 – API Testing](./05-API_Testing/README.md)
-- [06 – CI/CD Pipelines](./06-CI_CD_Pipelines/README.md)
-
-- [Real World QA Projects](./08-Real_World_QA_Projects/README.md)
+- [Real-World QA Projects](./Real_World_Projects/README.md)
+- [01 – Testing Fundamentals](./01-Testing_Fundamentals/README.md)
+- [02 – Test Automation Frameworks](./02-Test_Automation_Frameworks/README.md)
+- [03 – API Testing](./03-API_Testing/README.md)
+- [04 – QA Tools](./04-QA_Tools/README.md)
+- [05 – CI/CD Pipelines](./05-CI_CD_Pipelines/README.md)
 
 ---
 
 ## 🗂️ Portfolio Structure & Highlights
 
-### [01 – Foundation Testing](./01-Foundation_Testing/README.md)
-- Demonstrates **foundations of QA & Software Testing** on the live [OpenCart Demo](https://demo.opencart.com/)  
-- Covers the **full QA cycle**: requirements → planning → test design → execution → reporting  
-- Includes **test plans, structured test cases, and bug reports** with evidence and severity/priority levels  
-- Provides **traceability matrix** to ensure test coverage against requirements  
-- Showcases **risk assessment, test summary reports, and QA checklists** (smoke & regression)  
-- Uses **visual diagrams** (STLC, Defect Lifecycle) to connect theory with practice  
-- Simulates an **Agile sprint workflow**, showing how QA integrates into iterative development  
-
-
-
-### [02 – QA Tools](./02-QA_Tools/README.md)
-- Showcases **test case management and defect reporting** using **Zephyr Scale, Jira, and Azure DevOps**  
-- Demonstrates how to **write, organize, and track multiple test cases** in professional QA tools  
-- Includes **bug reports with severity, priority, reproduction steps, and attachments** for clarity  
-- Highlights **cross-tool workflows**, showing how defects are tracked and communicated across platforms  
-- Emphasizes **professional QA documentation practices** with structured Markdown formatting  
- 
-
-### [03 – Programming for Automation](./03-Programming_for_Automation/README.md)
-- Java & Python automation scripts  
-- SQL queries for database validation  
-
-### [04 – Test Automation Frameworks](./04-Test_Automation_Frameworks/README.md)
-- Selenium WebDriver scripts for real applications  
-- TestNG & JUnit integration with reporting  
-
-### [05 – API Testing](./05-API_Testing/README.md)
-- Postman collections & Newman CLI automation  
-- API tests with validations and assertions  
-
-### [06 – CI/CD Pipelines](./06-CI_CD_Pipelines/README.md)
-- Jenkins jobs integrating automation & API tests  
-
-
 ### [Real-World QA Projects](./Real_World_Projects/README.md)
 - End-to-end projects covering **manual, automation, and API testing**  
+- Demonstrates ability to deliver QA from **requirements to release readiness**  
+
+### [01 – Testing Fundamentals](./01-Testing_Fundamentals/README.md)
+- Demonstrates **QA foundations** on the live [OpenCart Demo](https://demo.opencart.com/)  
+- Covers the **full QA cycle**: requirements → planning → test design → execution → reporting  
+- Includes **test plans, structured test cases, bug reports, and risk assessment**  
+- Provides **traceability matrix** and **QA lifecycle diagrams** (STLC, defect lifecycle)  
+- Simulates **Agile sprint workflows**, showing QA integration into iterative development  
+
+### [02 – Test Automation Frameworks](./02-Test_Automation_Frameworks/README.md)
+- Frameworks: **Selenium WebDriver, TestNG, JUnit, Pytest**
+- **Design patterns**: Page Object Model (POM), data-driven testing, reusable components
+- **Reporting & logging** with automated execution results
+- SQL queries for **database validation** within test flows
+- Java & Python automation using **OOP principles**
+
+
+### [03 – API Testing](./03-API_Testing/README.md)
+- Postman collections with **validations & assertions**  
+- Newman CLI for **automation and CI/CD integration**  
+- Includes **positive, negative, and edge case testing**  
+
+### [04 – QA Tools](./04-QA_Tools/README.md)
+- **Test case management and defect reporting** in **Jira, Zephyr Scale, Azure DevOps**  
+- **Bug reports** with severity, priority, and reproducible evidence  
+- Cross-tool workflows with **structured QA documentation in Markdown**  
+
+### [05 – CI/CD Pipelines](./05-CI_CD_Pipelines/README.md)
+- Jenkins & GitHub Actions for **automated test execution in pipelines**  
+- Triggering automation on **commits and pull requests**  
+- Demonstrates **shift-left testing and DevOps practices**  
 
 ---
 
 ## 💡 What I Bring to the Table
 I go beyond just running tests. I understand how **QA fits into the bigger picture** and use this perspective to ensure quality is built into every stage of development. Through **real-world projects, clear documentation, and a mix of manual testing, automation, and DevOps practices**, I can manage the full QA cycle from planning to execution, reporting, and closure while driving real impact in QA teams.
-
-
-
 
 ---
 
