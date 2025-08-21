@@ -69,5 +69,3 @@ This repository shows that I can test APIs effectively, analyze results, and com
 - [OWASP API Security](https://owasp.org/www-project-api-security/) guidelines for security testing  
 
 ---
-
-✅ With this repository, I am showing more than just test execution. I am showing how I think as a tester: capturing evidence, analyzing results, and presenting them in a way that’s easy to understand for different audiences.  

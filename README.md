@@ -58,10 +58,12 @@ To explore this portfolio:
 - ~~Java & Python automation using **OOP principles**~~
 
 
-### [03 – API Testing](./03-API_Testing/README.md)
-- Postman collections with **validations & assertions**  
-- Newman CLI for **automation and CI/CD integration**  
-- Includes **positive, negative, and edge case testing**  
+### [03 – API Testing](./03-API_Testing/README.md)  
+1. Demonstrates **API functional testing** (CRUD, workflows) using [JSONPlaceholder](https://jsonplaceholder.typicode.com/) and [Reqres](https://reqres.in/).  
+2. Covers **API security scenarios** including authentication and authorization with valid and invalid tokens.  
+3. Includes **screenshots of executions**, **Newman HTML/PDF reports**, and **documented findings** for recruiter-friendly review.  
+4. Showcases both **positive and negative test flows** with clear evidence of results.  
+
 
 ### [04 – QA Tools](./04-QA_Tools/README.md)
 - **Test case management and defect reporting** in **Jira, Zephyr Scale, Azure DevOps**  
