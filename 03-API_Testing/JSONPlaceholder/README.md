@@ -1,7 +1,9 @@
-# JSONPlaceholder – CRUD API Testing
+# JSONPlaceholder – CRUD API Testing  
 
 ## 📌 Overview  
-This folder contains API testing work using [JSONPlaceholder](https://jsonplaceholder.typicode.com/), a public mock REST API for **CRUD operations** on resources like posts, comments, users, and todos.
+This project showcases my ability to test APIs using [JSONPlaceholder](https://jsonplaceholder.typicode.com/), a public mock REST API for practicing **CRUD operations**.  
+It demonstrates how I approach both **manual and automated API validation**, and how I document results in a clear, professional format.
+ 
 
 ---
 
@@ -14,9 +16,29 @@ This folder contains API testing work using [JSONPlaceholder](https://jsonplaceh
 
 ---
 
-## 📊 Deliverables  
-- **Screenshots** of Postman test runs  
-- **Newman HTML & PDF reports** with pass/fail results  
-- **Findings summary** (bugs, unexpected behaviors, gaps in the mock API)  
+## 📊 Findings (Summary)  
+
+| ID   | Request           | Expected        | Actual           | Status | Notes                  |
+|------|------------------|----------------|-----------------|--------|------------------------|
+| JP-01 | GET /posts       | 200 + array    | 200 + array     | ✅     | Returned > 0 items     |
+| JP-02 | GET /posts/1     | 200 + object   | 200 + object    | ✅     | Fields present, id OK  |
+| JP-03 | POST /posts      | 201 + id       | 201 + id:101    | ✅     | Non-persistent (mock)  |
+| JP-04 | GET /posts/9999  | 404            | 200 + `{}`      | ⚠️     | Mock behavior          |
+| JP-05 | DELETE /posts/1  | 200/204        | 200 + empty body| ✅     | Mock response          |
+
+---
+
+## 🔑 Key Notes  
+- JSONPlaceholder is a **mock service** → create/update/delete actions don’t persist.  
+- Some **negative cases** (e.g., non-existent IDs) may return `{}` with 200 instead of 404.  
+- Useful for demonstrating **API test design, execution, and reporting**.  
+
+---
+
+## 📂 Deliverables  
+- **Collections** → `./Collections/JSONPlaceholder_CRUD.postman_collection.json`  
+- **Environment** → `./Collections/JSONPlaceholder.postman_environment.json`  
+- **Reports** → `./Reports/jsonplaceholder-report.html` (+ `.json`, and `.pdf`)  
+- **Screenshots** → `./Screenshots/*`  
 
 ---

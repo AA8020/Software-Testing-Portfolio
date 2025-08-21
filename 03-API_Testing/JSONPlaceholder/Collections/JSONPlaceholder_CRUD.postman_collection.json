@@ -1,0 +1,330 @@
+{
+	"info": {
+		"_postman_id": "d891062f-6c86-4501-9974-98b251ac7048",
+		"name": "JSONPlaceholder – CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32502079"
+	},
+	"item": [
+		{
+			"name": "Posts CRUD",
+			"item": [
+				{
+					"name": "GET All Posts",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", () => pm.response.to.have.status(200));\r",
+									"pm.test(\"Is JSON\", () => pm.response.to.have.header(\"content-type\"));\r",
+									"pm.test(\"Array of items returned\", () => {\r",
+									"  const data = pm.response.json();\r",
+									"  pm.expect(Array.isArray(data)).to.be.true;\r",
+									"  pm.expect(data.length).to.be.greaterThan(0);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/posts",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET a single post (by ID)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", () => pm.response.to.have.status(200));\r",
+									"pm.test(\"Is JSON\", () => pm.response.to.have.header(\"content-type\"));\r",
+									"const j = pm.response.json();\r",
+									"pm.test(\"Has required fields\", () => {\r",
+									"  [\"userId\",\"id\",\"title\",\"body\"].forEach(k => pm.expect(j).to.have.property(k));\r",
+									"});\r",
+									"pm.test(\"id matches requested\", () => {\r",
+									"  pm.expect(j.id).to.eql(parseInt(pm.environment.get(\"postId\"), 10));\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/posts/{{postId}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts",
+								"{{postId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE a post",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200 or 204\", () => {\r",
+									"  pm.expect([200,204]).to.include(pm.response.code);\r",
+									"});\r",
+									"pm.test(\"Body empty or {}\", () => {\r",
+									"  const t = pm.response.text().trim();\r",
+									"  pm.expect([\"\", \"{}\", null, undefined]).to.include(t);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/posts/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Negative – GET by ID",
+			"item": [
+				{
+					"name": "Number",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const code = pm.response.code;\r",
+									"const txt  = pm.response.text().trim();\r",
+									"pm.test(\"Acceptable for mock\", () => {\r",
+									"  pm.expect([200,404]).to.include(code);\r",
+									"  if (code === 200) pm.expect([\"{}\", \"\"].includes(txt)).to.be.true;\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/posts/9999",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts",
+								"9999"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CREATE a post (POST)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status 201\", () => pm.response.to.have.status(201));\r",
+							"const j = pm.response.json();\r",
+							"pm.test(\"Echoed fields exist\", () => {\r",
+							"  [\"title\",\"body\",\"userId\",\"id\"].forEach(k => pm.expect(j).to.have.property(k));\r",
+							"});\r",
+							"pm.environment.set(\"postId_created\", j.id); // for display/reporting only\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.variables.set(\"title\", `Post ${Date.now()}`);\r",
+							"pm.variables.set(\"body\", `Body ${Date.now()}`);\r",
+							"pm.variables.set(\"userId\", Math.floor(Math.random() * 10) + 1);"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"{{title}}\",\r\n  \"body\": \"{{body}}\",\r\n  \"userId\": {{userId}}\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/posts",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE a post (PUT)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status 200\", () => pm.response.to.have.status(200));\r",
+							"const j = pm.response.json();\r",
+							"pm.test(\"Update echoed\", () => {\r",
+							"  pm.expect(j.title).to.eql(\"Updated title\");\r",
+							"  pm.expect(j.body).to.eql(\"Updated body\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"title\": \"Updated title\",\r\n  \"body\": \"Updated body\",\r\n  \"userId\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/posts/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"posts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PARTIAL UPDATE (PATCH)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status 200\", () => pm.response.to.have.status(200));\r",
+							"pm.test(\"Patched title returned\", () => {\r",
+							"  pm.expect(pm.response.json().title).to.eql(\"Patched title\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Patched title\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/posts/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"posts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
