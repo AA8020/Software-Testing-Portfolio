@@ -51,11 +51,11 @@ To explore this portfolio:
 - Simulates **Agile sprint workflows**, showing QA integration into iterative development  
 
 ### [02 – Test Automation Frameworks](./02-Test_Automation_Frameworks/README.md)
-- Frameworks: **Selenium WebDriver, TestNG, JUnit, Pytest**
-- **Design patterns**: Page Object Model (POM), data-driven testing, reusable components
-- **Reporting & logging** with automated execution results
-- SQL queries for **database validation** within test flows
-- Java & Python automation using **OOP principles**
+- ~~Frameworks: **Selenium WebDriver, TestNG, JUnit, Pytest**~~
+- ~~**Design patterns**: Page Object Model (POM), data-driven testing, reusable components~~
+- ~~**Reporting & logging** with automated execution results~~
+- ~~SQL queries for **database validation** within test flows~~
+- ~~Java & Python automation using **OOP principles**~~
 
 
 ### [03 – API Testing](./03-API_Testing/README.md)
@@ -68,10 +68,10 @@ To explore this portfolio:
 - **Bug reports** with severity, priority, and reproducible evidence  
 - Cross-tool workflows with **structured QA documentation in Markdown**  
 
-### [05 – CI/CD Pipelines](./05-CI_CD_Pipelines/README.md)
-- Jenkins & GitHub Actions for **automated test execution in pipelines**  
-- Triggering automation on **commits and pull requests**  
-- Demonstrates **shift-left testing and DevOps practices**  
+### ~~[05 – CI/CD Pipelines](./05-CI_CD_Pipelines/README.md)~~
+- ~~Jenkins & GitHub Actions for **automated test execution in pipelines**~~
+- ~~Triggering automation on **commits and pull requests**~~ 
+- ~~Demonstrates **shift-left testing and DevOps practices**~~  
 
 ---
 
