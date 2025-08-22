@@ -6,11 +6,11 @@
 </p>
 
 <p align="center">
-  <a href="#manual-testing"><img src="https://img.shields.io/badge/Manual_Testing-blue" alt="Manual Testing"></a>
-  <a href="#api-testing"><img src="https://img.shields.io/badge/API_Testing-yellow" alt="API Testing"></a>
-  <a href="#test-automation"><img src="https://img.shields.io/badge/Test_Automation-green" alt="Automation"></a>
-  <a href="#performance-testing"><img src="https://img.shields.io/badge/Performance_Testing-red" alt="Performance Testing"></a>
-  <a href="#ci-cd"><img src="https://img.shields.io/badge/CI/CD-purple" alt="CI/CD"></a>
+  <a href="#testing-fundamentals"><img src="https://img.shields.io/badge/01-Fundamentals-blue" alt="Fundamentals"></a>
+  <a href="#test-bug-management"><img src="https://img.shields.io/badge/02-Bug_Management-yellow" alt="Bug Management"></a>
+  <a href="#api-testing"><img src="https://img.shields.io/badge/03-API_Testing-green" alt="API Testing"></a>
+  <a href="#test-automation-frameworks"><img src="https://img.shields.io/badge/04-Automation_Frameworks-red" alt="Automation"></a>
+  <a href="#performance-testing"><img src="https://img.shields.io/badge/05-Performance_Testing-purple" alt="Performance"></a>
   <a href="#real-world-projects"><img src="https://img.shields.io/badge/Real_World_Projects-lightblue" alt="Real Projects"></a>
 </p>
 
@@ -24,47 +24,55 @@ Hands-on experience: **Manual | Automation | API | Performance | CI/CD**
 
 ---
 
-## 🔹 Manual Testing
+## 🔹 01 – Testing Fundamentals
+<a name="testing-fundamentals"></a>
 - Full QA lifecycle: **requirements → planning → test design → execution → reporting**  
 - Designed **test cases**, built **traceability matrices**, executed **Agile sprints**  
-[Go to Testing Fundamentals](./01-Testing_Fundamentals/README.md)  
+[Explore Folder](./01-Testing_Fundamentals/README.md)  
 
 ---
 
-## 🔹 API Testing
-- Tested **REST APIs**: CRUD, authentication, error handling, positive/negative scenarios  
-- Automated tests with **HTML/PDF reporting**, performed **security validations**  
-[Go to API Testing](./03-API_Testing/README.md)  
+## 🔹 02 – Test & Bug Management
+<a name="test-bug-management"></a>
+- Worked with **Jira, Zephyr, Azure DevOps** for test case & defect management  
+- Applied **severity & priority classification** for reproducible bug reports  
+- Demonstrated **cross-tool workflows**  
+[Explore Folder](./02-Test_Bug_Management/README.md)  
 
 ---
 
-## 🔹 Test Automation
+## 🔹 03 – API Testing
+<a name="api-testing"></a>
+- Tested **REST APIs** using Postman & Newman  
+- Covered **CRUD, authentication, error handling, positive/negative scenarios**  
+- Automated tests with **HTML/PDF reporting** and **security validations**  
+[Explore Folder](./03-API_Testing/README.md)  
+
+---
+
+## 🔹 04 – Test Automation Frameworks
+<a name="test-automation-frameworks"></a>
 - Built automation with **Selenium WebDriver, TestNG, JUnit, Pytest**  
-- Implemented **Page Object Model (POM), data-driven tests**, reusable modules  
+- Implemented **Page Object Model (POM), data-driven tests, reusable modules**  
 - Integrated **SQL validations** and **CI/CD pipelines**  
-[Go to Automation Frameworks](./04-Test_Automation_Frameworks/README.md)  
+[Explore Folder](./04-Test_Automation_Frameworks/README.md)  
 
 ---
 
-## 🔹 Performance Testing
-- Used **JMeter** for load and stress testing on APIs  
-- Measured **response times, throughput, CPU/memory utilization**  
-- Generated **dashboards** to identify bottlenecks  
-[Go to Performance Testing](./05-Performance_Testing/README.md)  
-
----
-
-## 🔹 CI/CD & DevOps
-- Integrated automated tests into **Jenkins pipelines**  
-- Monitored **build health, reporting, and deployment readiness**  
-[Go to Automation Frameworks / CI/CD](./04-Test_Automation_Frameworks/README.md)  
+## 🔹 05 – Performance Testing
+<a name="performance-testing"></a>
+- Designed & executed **JMeter performance tests** on live APIs  
+- Measured **response time, throughput, CPU/memory utilization**  
+- Simulated **parallel & sequential users**, generated **dashboard reports**  
+[Explore Folder](./05-Performance_Testing/README.md)  
 
 ---
 
 ## 🔹 Real World Projects
+<a name="real-world-projects"></a>
 - End-to-end QA combining **manual, automation, API, performance, and CI/CD**  
 - Delivered **release-ready artifacts, dashboards, and reports**  
-[Go to Real World Projects](./Real_World_Projects/README.md)  
+[Explore Folder](./Real_World_Projects/README.md)  
 
 ---
 
