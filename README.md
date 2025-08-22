@@ -72,7 +72,7 @@ To explore my portfolio:
 
 ---
 
-### 05 – Performance Testing
+### [05-Performance_Testing](./05-Performance_Testing/README.md)
 - Designed and executed **performance tests using Apache JMeter** on the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)  
 - Measured **response times, throughput, utilization, and scalability** for multiple endpoints (GET /posts, GET /posts/1, POST /users)  
 - Simulated **parallel and sequential user execution** using thread groups to reflect real-world load  
