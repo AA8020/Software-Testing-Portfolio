@@ -30,7 +30,6 @@ This project is included to showcase that I can:
 
 ---
 
-## 📌 How to Navigate
 
 ## 📌 How to Navigate
 
