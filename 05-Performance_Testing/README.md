@@ -32,12 +32,14 @@ This project is included to showcase that I can:
 
 ## 📌 How to Navigate
 
-1. **Scripts** → `Scripts/JSONPlaceholder_TestPlan.jmx`  
+## 📌 How to Navigate
+
+1. **Scripts** → [Scripts/JSONPlaceholder_TestPlan.jmx](./Scripts/JSONPlaceholder_TestPlan.jmx)  
    - Contains the full JMeter test plan including all threads, samplers, timers, and controllers  
 
 2. **Results**  
-   - `Results/Listeners/` → CSV exports of Summary and Aggregate Reports  
-   - `Results/Reports/HTML_Report/` → HTML dashboard generated from test execution  
+   - [Results/Listeners/](./Results/Listeners/) → CSV exports of Summary and Aggregate Reports  
+   - [Results/Reports/HTML_Report/](./Results/Reports/HTML_Report/) → Interactive HTML dashboard  
 
 
 
