@@ -11,7 +11,7 @@
 An **ISTQB® CTFL v4 certified junior software tester** who’s focused on building a strong foundation in QA and constantly improving.  
 I’ve worked hands-on with **manual testing, test automation, API testing, and CI/CD basics**, applying what I learn directly in real-world-style projects.  
 
-This portfolio highlights **software testing in practice**. It’s organized to reflect my journey: beginning with **fundamentals**, then expanding into **tools, automation, performance, and DevOps practices**. Each section shows both the concepts I’ve studied and how I’ve applied them in projects.  
+My portfolio highlights **software testing in practice**. It’s organized to reflect my journey: beginning with **fundamentals**, then expanding into **tools, automation, performance, and DevOps practices**. Each section shows both the concepts I’ve studied and how I’ve applied them in projects.  
 
 ---
 
