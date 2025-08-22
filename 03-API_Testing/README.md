@@ -21,9 +21,8 @@ This repository shows that I can test APIs effectively, analyze results, and com
 ## 🎯 Knowledge Demonstrated  
 1. CRUD Operations – Validating Create, Read, Update, Delete endpoints  
 2. Workflow Testing – Combining endpoints to simulate real user flows  
-3. API Security – Testing authentication and authorization using valid and invalid tokens  
-4. Error Handling – Checking system responses with invalid inputs and edge cases  
-5. Reporting – Generating detailed [HTML](https://www.npmjs.com/package/newman-reporter-htmlextra) and PDF reports with Newman  
+3. Error Handling – Checking system responses with invalid inputs and edge cases  
+45. Reporting – Generating detailed [HTML](https://www.npmjs.com/package/newman-reporter-htmlextra) and PDF reports with Newman  
 
 ---
 
