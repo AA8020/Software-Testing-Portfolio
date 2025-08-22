@@ -1,4 +1,4 @@
-# 📂 API Testing with Postman  
+# 03-API_Testing
 
 ## 📌 Overview  
 This project demonstrates my ability to design, execute, and document [API testing](https://www.postman.com/api-testing/) using [Postman](https://www.postman.com/) and [Newman](https://www.npmjs.com/package/newman).  

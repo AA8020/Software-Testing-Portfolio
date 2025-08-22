@@ -1,7 +1,8 @@
-# 01 – Foundation Testing  
+# 01-Testing_Fundamentals
 
-## 📌 Overview  
+## 📌 Overview
 This section showcases the **foundations of Quality Assurance and Software Testing** applied on [OpenCart Demo](https://demo.opencart.com/). It combines **manual testing basics** with **end-to-end QA practices**, demonstrating how testing fits into the **SDLC** and is delivered through **Agile sprint cycles** (requirements → planning → execution → reporting). It includes both **executed test cases** (reproducible on the demo with results) and **conceptual test cases** (not always reproducible, but designed to illustrate QA principles, test design, and documentation standards).
+
 
 
 ---

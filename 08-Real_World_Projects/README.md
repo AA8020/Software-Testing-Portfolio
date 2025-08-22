@@ -1,4 +1,4 @@
-# 08 – Real World QA Projects  
+# 08-Real_World_Projects
 
 ## 📌 Overview  
 Showcasing end-to-end QA projects combining manual, automation, and API testing with real-world deliverables.  

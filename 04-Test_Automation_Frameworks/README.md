@@ -1,5 +1,5 @@
 
-# 04 – Test Automation Frameworks
+# 04-Test_Automation_Frameworks
 
 ## 📌 Overview
 This folder demonstrates my knowledge of designing and implementing test automation frameworks. It covers how frameworks support scalable, maintainable, and efficient automated testing in professional QA environments.

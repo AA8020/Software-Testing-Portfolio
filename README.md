@@ -24,20 +24,20 @@ To explore my portfolio:
 ---
 
 ## 🔗 Quick Links
-- [01 – Testing Fundamentals](./01-Testing_Fundamentals/README.md)  
-- [02 – Test & Bug Management Tools](./02-Test_Bug_Management/README.md)  
-- [03 – API Testing](./03-API_Testing/README.md)  
-- [04 – Test Automation Frameworks](./04-Test_Automation_Frameworks/README.md)  
-- [05 – Performance & Load Testing](./05-Performance_Testing/README.md)  
-- [06 – CI/CD & DevOps QA](./06-CICD_QA/README.md)  
-- [07 – Exploratory & Usability Testing](./07-Exploratory_Usability/README.md)  
-- [08 – Real World Projects](./08-Real_World_Projects/README.md)  
+- [01-Testing_Fundamentals](./01-Testing_Fundamentals/README.md)  
+- [02-Test_Bug_Management](./02-Test_Bug_Management/README.md)  
+- [03-API_Testing](./03-API_Testing/README.md)  
+- [04-Test_Automation_Frameworks](./04-Test_Automation_Frameworks/README.md)  
+- [05-Performance_Testing](./05-Performance_Testing/README.md)  
+- [06-CICD_QA](./06-CICD_QA/README.md)  
+- [07-Exploratory_Usability](./07-Exploratory_Usability/README.md)  
+- [08-Real_World_Projects](./08-Real_World_Projects/README.md)  
 
 ---
 
 ## 🗂️ In-Depth Structure & Highlights
 
-### [01 – Testing Fundamentals](./01-Testing_Fundamentals/README.md)
+### [01-Testing_Fundamentals](./01-Testing_Fundamentals/README.md)
 - Practiced **QA foundations** on [OpenCart Demo](https://demo.opencart.com/)  
 - Covered the **full QA cycle**: requirements → planning → test design → execution → reporting  
 - Created **test plans, test cases, bug reports, and risk assessments**  
@@ -46,7 +46,7 @@ To explore my portfolio:
 
 ---
 
-### [02 – Test & Bug Management Tools](./02-Test_Bug_Management/README.md)
+### [02-Test_Bug_Management](./02-Test_Bug_Management/README.md)
 - Worked with **Jira, Zephyr Scale, and Azure DevOps**  
 - Created and managed **test cases, defect reports, and test cycles**  
 - Applied **severity/priority classification** for reproducible bug reports  
@@ -54,7 +54,7 @@ To explore my portfolio:
 
 ---
 
-### [03 – API Testing](./03-API_Testing/README.md)
+### [03-API_Testing](./03-API_Testing/README.md)
 - Tested REST APIs using **Postman & Newman**  
 - Covered **CRUD operations, authentication, and error handling**  
 - Designed **positive and negative test scenarios**  
@@ -63,7 +63,7 @@ To explore my portfolio:
 
 ---
 
-### [04 – Test Automation Frameworks](./04-Test_Automation_Frameworks/README.md)
+### [04-Test_Automation_Frameworks](./04-Test_Automation_Frameworks/README.md)
 - Built test automation with **Selenium WebDriver, TestNG, JUnit, Pytest**  
 - Implemented **Page Object Model (POM)** and **data-driven testing**  
 - Created **modular and reusable components**  
@@ -72,7 +72,7 @@ To explore my portfolio:
 
 ---
 
-### [05 – Performance & Load Testing](./05-Performance_Testing/README.md)
+### [05-Performance_Testing](./05-Performance_Testing/README.md)
 - Introduced to **Apache JMeter** for performance testing  
 - Measured **response times, throughput, and scalability**  
 - Simulated **parallel and sequential thread execution**  
@@ -81,7 +81,7 @@ To explore my portfolio:
 
 ---
 
-### [06 – CI/CD & DevOps QA](./06-CICD_QA/README.md)
+### [06-CICD_QA](./06-CICD_QA/README.md)
 - Integrated automated tests into **CI pipelines** (GitHub Actions, Jenkins)  
 - Practiced a **shift-left approach** with early testing in pipelines  
 - Executed **functional, API, and regression tests** during builds  
@@ -89,7 +89,7 @@ To explore my portfolio:
 
 ---
 
-### [07 – Exploratory & Usability Testing](./07-Exploratory_Usability/README.md)
+### [07-Exploratory_Usability](./07-Exploratory_Usability/README.md)
 - Practiced **exploratory testing** with session-based approaches  
 - Used **mind maps** to visualize coverage and testing ideas  
 - Applied **usability and accessibility heuristics** to demo applications  
@@ -97,7 +97,7 @@ To explore my portfolio:
 
 ---
 
-### [08 – Real World Projects](./08-Real_World_Projects/README.md)
+### [08-Real_World_Projects](./08-Real_World_Projects/README.md)
 - End-to-end projects combining **manual, automation, API, and CI/CD testing**  
 - Show full QA lifecycle applied to **real-world apps**  
 - Provide **test artifacts, execution results, and reports** in one place  
