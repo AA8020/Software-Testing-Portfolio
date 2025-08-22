@@ -72,12 +72,15 @@ To explore my portfolio:
 
 ---
 
-### [05-Performance_Testing](./05-Performance_Testing/README.md)
-- Introduced to **Apache JMeter** for performance testing  
-- Measured **response times, throughput, and scalability**  
-- Simulated **parallel and sequential thread execution**  
-- Applied controllers such as **Loop, Runtime, Throughput, Once Only**  
-- Produced findings to identify **bottlenecks and system limits**  
+### 05 – Performance Testing
+- Designed and executed **performance tests using Apache JMeter** on the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)  
+- Measured **response times, throughput, utilization, and scalability** for multiple endpoints (GET /posts, GET /posts/1, POST /users)  
+- Simulated **parallel and sequential user execution** using thread groups to reflect real-world load  
+- Applied **advanced controllers**: Loop, Runtime, Throughput, Once Only  
+- Configured **timers and response assertions** to ensure endpoints returned expected status codes (200 / 201)  
+- Generated **HTML dashboard reports** and documented findings to identify bottlenecks and system limits
+
+ 
 
 ---
 
