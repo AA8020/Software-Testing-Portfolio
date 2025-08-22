@@ -26,7 +26,7 @@ This repository shows that I can test APIs effectively, analyze results, and com
 
 ---
 
-## 📌 How to Navigate This Repository  
+## 📌 How to Navigate
 
 ### 1. [JSONPlaceholder](./JSONPlaceholder)  
 - **Focus**: CRUD operations using the [JSONPlaceholder](https://jsonplaceholder.typicode.com/) public API  
