@@ -36,9 +36,9 @@ It demonstrates how I approach both **manual and automated API validation**, and
 ---
 
 ## 📂 Deliverables  
-- **Collections** → `./Collections/JSONPlaceholder_CRUD.postman_collection.json`  
-- **Environment** → `./Collections/JSONPlaceholder.postman_environment.json`  
-- **Reports** → `./Reports/jsonplaceholder-report.html` (+ `.json`, and `.pdf`)  
-- **Screenshots** → `./Screenshots/*`  
+- **[Collections](./Collections/JSONPlaceholder_CRUD.postman_collection.json)**  
+- **[Environment](./Collections/JSONPlaceholder.postman_environment.json)**  
+- **[Reports (HTML)](./Reports/jsonplaceholder-report.html)** | [JSON](./Reports/jsonplaceholder-report.json) | [PDF](./Reports/jsonplaceholder-report.pdf)  
+- **[Screenshots](./Screenshots/)**  
 
 ---
