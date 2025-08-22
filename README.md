@@ -7,7 +7,7 @@
 
 # 🧪 Software Testing Portfolio
 
-## 👤 WhoAmI 
+## 👤 WhoAmI, Anyway
 An **ISTQB® CTFL v4 certified junior software tester** who’s focused on building a strong foundation in QA and constantly improving.  
 I’ve worked hands-on with **manual testing, test automation, API testing, and CI/CD basics**, applying what I learn directly in real-world-style projects.  
 

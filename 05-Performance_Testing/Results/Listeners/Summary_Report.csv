@@ -1,0 +1,5 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Get Posts,500,79,56,573,44.27,0.000%,8.44723,237.14,1.38,28746.4
+Get Single Post,500,57,49,179,13.34,0.000%,8.52006,12.41,1.41,1492.0
+Create User,500,163,145,422,41.41,0.000%,8.50514,11.76,2.32,1416.3
+TOTAL,1500,100,49,573,57.81,0.000%,24.41724,251.60,4.89,10551.6

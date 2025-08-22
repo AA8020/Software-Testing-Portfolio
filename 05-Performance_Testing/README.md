@@ -1,35 +1,51 @@
 # 05-Performance_Testing
 
-## 📌 Overview  
-This folder showcases **performance testing using Apache JMeter and the BlazeMeter plugin** on the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/).  
-It demonstrates how to design, record, and execute performance tests while measuring **response time, throughput, scalability, and system robustness**, emphasizing professional QA workflows and reporting.
+## 📌 Overview
+This project demonstrates **performance testing using Apache JMeter** on the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/).  
+It highlights my ability to **design, execute, and analyze performance tests** while applying industry-standard QA practices.
+
+The test plan simulates multiple users performing **GET and POST requests**, using **thread groups, controllers, timers, and assertions** to create realistic load scenarios.  
+It measures **response times, throughput, utilization, and error handling**, providing a comprehensive understanding of system behavior under stress.
 
 ---
 
-## 💡 Why I Included This  
-This section shows that I can:  
-- Simulate realistic user load using **Thread Groups** and multiple controllers  
-- Record and replay API interactions with **BlazeMeter**  
-- Capture performance metrics including **average/median response time, throughput, and errors**  
-- Analyze and document **bottlenecks and system limits**  
-- Apply QA principles in **performance and load testing**  
+## 💡 Why I Included This
+This project is included to showcase that I can:  
+- **Plan and execute performance tests** that reflect real-world usage  
+- **Use JMeter’s advanced features** like Loop, Runtime, Throughput, and Once Only Controllers  
+- **Analyze key metrics** such as response times, throughput, and error rates to identify bottlenecks  
+- **Document findings professionally**, demonstrating clear communication and QA best practices  
+- Apply **robust testing techniques** suitable for enterprise-level QA workflows
 
 ---
 
-## 📌 How to Navigate  
-
-1. **Recorded Scripts** → [`Scripts/Recorded_Scripts.jmx`](./Scripts/Recorded_Scripts.jmx)  
-2. **Replayed Scripts** → [`Scripts/Replayed_Scripts.jmx`](./Scripts/Replayed_Scripts.jmx)  
-3. **Test Results & Reports** → [`Results/`](./Results/)  
-4. **Findings & Notes** → [`Notes/Findings.md`](./Notes/Findings.md)  
+## 💡 Skills Demonstrated
+- **Thread Groups and Controllers**: Loop Controller, Runtime Controller, Throughput Controller, Once Only Controller  
+- **HTTP Requests**: GET and POST requests to API endpoints with JSON payloads  
+- **Response Assertions**: Ensuring endpoints return expected status codes (200 / 201)  
+- **Timers**: Simulating realistic user think time  
+- **Listeners**: Summary Report, Aggregate Report, View Results Tree  
+- **HTML Dashboard Report**: Generating interactive performance report with charts and tables  
+- **Findings Documentation**: Recording observations and insights in Markdown  
 
 ---
 
-## 🛠 Tools Used  
-- **Apache JMeter** → Performance and load testing  
-- **BlazeMeter plugin** → Recording and replaying API scripts  
-- **JSONPlaceholder API** → Target API for testing  
-- **Listeners (View Results Tree, Summary, Aggregate)** → Capture metrics and performance data  
-- **Controllers (Loop, Runtime, Throughput, Once Only, Interleave, Simple)** → Manage request flow  
+## 📌 How to Navigate
+
+1. **Scripts** → `Scripts/JSONPlaceholder_TestPlan.jmx`  
+   - Contains the full JMeter test plan including all threads, samplers, timers, and controllers  
+
+2. **Results**  
+   - `Results/Listeners/` → CSV exports of Summary and Aggregate Reports  
+   - `Results/Reports/HTML_Report/` → HTML dashboard generated from test execution  
+
+
+
+---
+
+## 🛠 Tools Used
+- **Apache JMeter** → Performance testing and test plan execution  
+
 - **Markdown** → Documentation formatting  
 
+---
