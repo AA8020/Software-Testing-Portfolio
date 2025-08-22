@@ -40,7 +40,7 @@ This repository shows that I can test APIs effectively, analyze results, and com
 - **What you will find**:  
   - Screenshots showing both successful and error responses  
   - Execution reports in HTML and PDF format  
-  - Key findings and bug notes  
+  - A findings summary
 
 ---
 
