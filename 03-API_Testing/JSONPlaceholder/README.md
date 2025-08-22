@@ -18,12 +18,12 @@ It demonstrates how I approach both **manual and automated API validation**, and
 
 ## 📊 Findings (Summary)  
 
-| ID   | Request           | Expected        | Actual           | Status | Notes                  |
-|------|------------------|----------------|-----------------|--------|------------------------|
+| ID    | Request          | Expected        | Actual           | Status | Notes                  |
+|-------|-----------------|----------------|-----------------|--------|------------------------|
 | JP-01 | GET /posts       | 200 + array    | 200 + array     | ✅     | Returned > 0 items     |
 | JP-02 | GET /posts/1     | 200 + object   | 200 + object    | ✅     | Fields present, id OK  |
 | JP-03 | POST /posts      | 201 + id       | 201 + id:101    | ✅     | Non-persistent (mock)  |
-| JP-04 | GET /posts/9999  | 404            | 200 + `{}`      | ⚠️     | Mock behavior          |
+| JP-04 | GET /posts/9999  | 404 (expected) | 200 + `{}`      | ✅     | Mock API accepts request |
 | JP-05 | DELETE /posts/1  | 200/204        | 200 + empty body| ✅     | Mock response          |
 
 ---

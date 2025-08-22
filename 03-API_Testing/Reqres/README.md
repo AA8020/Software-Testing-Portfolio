@@ -47,7 +47,6 @@ It demonstrates how I validate **positive and negative scenarios**, automate ass
 | RQ-10 | POST /api/users           | 201 + created object              | 201 + name, job, id, createdAt  | ✅     | User created successfully          |
 
 ---
-
 ## 🔑 Key Notes  
 - ReqRes simulates **realistic API flows** including **authentication and CRUD**.  
 - Create/update/delete actions are **mocked** → data does not persist.  
