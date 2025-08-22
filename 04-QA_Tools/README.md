@@ -31,18 +31,12 @@ This section highlights my ability to:
    - Reports documenting pass and fail results  
    - Key findings and bug notes  
 
-3. **API Security** → [`Security/`](./Security/)  
-   - Authorization and authentication test results  
-   - Screenshots comparing valid, invalid, and expired tokens  
-   - Detailed documentation of vulnerabilities found  
-
 ---
 
 ## 🛠 Tools Used  
 - **[Postman](https://www.postman.com/)** → API test design, execution, assertions  
 - **[Newman](https://www.npmjs.com/package/newman)** → CLI automation and HTML/PDF reporting  
 - **[JSONPlaceholder](https://jsonplaceholder.typicode.com/)** → Public mock REST API for CRUD testing  
-- **[Reqres](https://reqres.in/)** → Public mock REST API for authentication testing  
-- **[OWASP API Security](https://owasp.org/www-project-api-security/)** → Guidelines for secure API testing  
+
 
 ---
