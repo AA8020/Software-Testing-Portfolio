@@ -58,11 +58,12 @@ To explore this portfolio:
 - ~~Java & Python automation using **OOP principles**~~
 
 
-### [03 – API Testing](./03-API_Testing/README.md)  
-1. Demonstrates **API functional testing** (CRUD, workflows) using [JSONPlaceholder](https://jsonplaceholder.typicode.com/) and [Reqres](https://reqres.in/).  
-2. Covers **API security scenarios** including authentication and authorization with valid and invalid tokens.  
-3. Includes **screenshots of executions**, **Newman HTML/PDF reports**, and **documented findings** for recruiter-friendly review.  
-4. Showcases both **positive and negative test flows** with clear evidence of results.  
+### [03 – API Testing](./03-API_Testing/README.md)
+- Demonstrates **API functional testing** using [JSONPlaceholder](https://jsonplaceholder.typicode.com/) and [ReqRes](https://reqres.in/)  
+- Covers **CRUD workflows**, **authentication flows**, and **security checks** (valid/invalid tokens)  
+- Showcases both **positive and negative test scenarios** with clear execution evidence  
+- Includes **Postman collections**, **Newman HTML/PDF reports**, and **screenshots**  
+- Provides **documented findings** for recruiter-friendly review  
 
 
 ### [04 – QA Tools](./04-QA_Tools/README.md)
