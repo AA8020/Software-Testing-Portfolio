@@ -71,10 +71,6 @@ To explore this portfolio:
 - **Bug reports** with severity, priority, and reproducible evidence  
 - Cross-tool workflows with **structured QA documentation in Markdown**  
 
-### ~~[05 – CI/CD Pipelines](./05-CI_CD_Pipelines/README.md)~~
-- ~~Jenkins & GitHub Actions for **automated test execution in pipelines**~~
-- ~~Triggering automation on **commits and pull requests**~~ 
-- ~~Demonstrates **shift-left testing and DevOps practices**~~  
 
 ---
 
