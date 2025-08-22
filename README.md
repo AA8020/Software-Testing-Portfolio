@@ -33,7 +33,7 @@ To explore this portfolio:
 - [02 – Test Automation Frameworks](./02-Test_Automation_Frameworks/README.md)
 - [03 – API Testing](./03-API_Testing/README.md)
 - [04 – QA Tools](./04-QA_Tools/README.md)
-- [05 – CI/CD Pipelines](./05-CI_CD_Pipelines/README.md)
+
 
 ---
 
