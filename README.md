@@ -99,7 +99,7 @@ To explore my portfolio:
 
 ### [08 – Real World Projects](./08-Real_World_Projects/README.md)
 - End-to-end projects combining **manual, automation, API, and CI/CD testing**  
-- Show full QA lifecycle applied to **real-world demo apps**  
+- Show full QA lifecycle applied to **real-world apps**  
 - Provide **test artifacts, execution results, and reports** in one place  
 - Highlight ability to deliver **release readiness through QA practices**  
 
