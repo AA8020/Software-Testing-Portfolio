@@ -57,9 +57,8 @@ It demonstrates how I validate **positive and negative scenarios**, automate ass
 ---
 
 ## 📂 Deliverables  
-- **Collections** → `./Collections/ReqRes_API.postman_collection.json`  
-- **Environment** → `./Collections/ReqRes_API.postman_environment.json`  
-- **Reports** → `./Reports/reqres-report.html` (+ `.json`, and `.pdf`)  
-- **Screenshots** → `./Screenshots/*`  
-
+- [Collections](./Collections/ReqRes_API.postman_collection.json)  
+- [Environment](./Collections/ReqRes_API.postman_environment.json)  
+- [Reports](./Reports/reqres-report.html) (+ `.json`, and `.pdf`)  
+- [Screenshots](./Screenshots/) 
 ---
