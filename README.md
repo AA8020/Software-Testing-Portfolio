@@ -1,107 +1,73 @@
 <p align="center">
-	<a href="https://www.istqb.org/"><img src="https://img.shields.io/badge/ISTQB-CTFL4-blue" alt="ISTQB Certified"></a>
-	<a href="https://www.selenium.dev/"><img src="https://img.shields.io/badge/Selenium-WebDriver-green" alt="Selenium"></a>
-	<a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-Programming-orange" alt="Java"></a>
-	<a href="https://www.jenkins.io/"><img src="https://img.shields.io/badge/Jenkins-CI/CD-red" alt="Jenkins"></a>
+  <a href="https://www.istqb.org/"><img src="https://img.shields.io/badge/ISTQB-CTFL4-blue" alt="ISTQB Certified"></a>
+  <a href="https://www.selenium.dev/"><img src="https://img.shields.io/badge/Selenium-WebDriver-green" alt="Selenium"></a>
+  <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-Programming-orange" alt="Java"></a>
+  <a href="https://www.jenkins.io/"><img src="https://img.shields.io/badge/Jenkins-CI/CD-red" alt="Jenkins"></a>
+</p>
+
+<p align="center">
+  <a href="#manual-testing"><img src="https://img.shields.io/badge/Manual_Testing-blue" alt="Manual Testing"></a>
+  <a href="#api-testing"><img src="https://img.shields.io/badge/API_Testing-yellow" alt="API Testing"></a>
+  <a href="#test-automation"><img src="https://img.shields.io/badge/Test_Automation-green" alt="Automation"></a>
+  <a href="#performance-testing"><img src="https://img.shields.io/badge/Performance_Testing-red" alt="Performance Testing"></a>
+  <a href="#ci-cd"><img src="https://img.shields.io/badge/CI/CD-purple" alt="CI/CD"></a>
+  <a href="#real-world-projects"><img src="https://img.shields.io/badge/Real_World_Projects-lightblue" alt="Real Projects"></a>
 </p>
 
 # 🧪 Software Testing Portfolio
 
-## 👤 WhoAmI, Anyway
-An **ISTQB® CTFL v4 certified junior software tester** who’s focused on building a strong foundation in QA and constantly improving.  
-I’ve worked hands-on with **manual testing, test automation, API testing, and CI/CD basics**, applying what I learn directly in real-world-style projects.  
+**ISTQB® CTFL v4 certified junior software tester**
 
-My portfolio highlights **software testing in practice**. It’s organized to reflect my journey: beginning with **fundamentals**, then expanding into **tools, automation, performance, and DevOps practices**. Each section shows both the concepts I’ve studied and how I’ve applied them in projects.  
+Hands-on experience: **Manual | Automation | API | Performance | CI/CD**  
 
----
-
-## 🚀 Getting Started
-To explore my portfolio:  
-1. Browse the folders for each stage of my learning path  
-2. Open the README.md inside for explanations, artifacts, and examples  
-3. Check out scripts, test cases, and reports to see how I apply software testing in practice  
+**Top Skills:** Manual Testing | Selenium | JUnit/TestNG | Pytest | Postman | Newman | JMeter | CI/CD | SQL | Agile  
 
 ---
 
-## 🔗 Quick Links
-- [01-Testing_Fundamentals](./01-Testing_Fundamentals/README.md)  
-- [02-Test_Bug_Management](./02-Test_Bug_Management/README.md)  
-- [03-API_Testing](./03-API_Testing/README.md)  
-- [04-Test_Automation_Frameworks](./04-Test_Automation_Frameworks/README.md)  
-- [05-Performance_Testing](./05-Performance_Testing/README.md)
-- [Real_World_Projects](./Real_World_Projects/README.md)  
+## 🔹 Manual Testing
+- Full QA lifecycle: **requirements → planning → test design → execution → reporting**  
+- Designed **test cases**, built **traceability matrices**, executed **Agile sprints**  
+[Go to Testing Fundamentals](./01-Testing_Fundamentals/README.md)  
 
 ---
 
-## 🗂️ In-Depth Structure & Highlights
-
-### [01-Testing_Fundamentals](./01-Testing_Fundamentals/README.md)
-- Practiced **QA foundations** on [OpenCart Demo](https://demo.opencart.com/)  
-- Covered the **full QA cycle**: requirements → planning → test design → execution → reporting  
-- Created **test plans, test cases, bug reports, and risk assessments**  
-- Built a **traceability matrix** and lifecycle diagrams (STLC, defect lifecycle)  
-- Simulated **Agile sprints** to demonstrate QA in iterative development  
+## 🔹 API Testing
+- Tested **REST APIs**: CRUD, authentication, error handling, positive/negative scenarios  
+- Automated tests with **HTML/PDF reporting**, performed **security validations**  
+[Go to API Testing](./03-API_Testing/README.md)  
 
 ---
 
-### [02-Test_Bug_Management](./02-Test_Bug_Management/README.md)
-- Worked with **Jira, Zephyr Scale, and Azure DevOps**  
-- Created and managed **test cases, defect reports, and test cycles**  
-- Applied **severity/priority classification** for reproducible bug reports  
-- Demonstrated **cross-tool workflows** and structured reporting  
+## 🔹 Test Automation
+- Built automation with **Selenium WebDriver, TestNG, JUnit, Pytest**  
+- Implemented **Page Object Model (POM), data-driven tests**, reusable modules  
+- Integrated **SQL validations** and **CI/CD pipelines**  
+[Go to Automation Frameworks](./04-Test_Automation_Frameworks/README.md)  
 
 ---
 
-### [03-API_Testing](./03-API_Testing/README.md)
-- Tested REST APIs using **Postman & Newman**  
-- Covered **CRUD operations, authentication, and error handling**  
-- Designed **positive and negative test scenarios**  
-- Automated API tests with **reports in HTML/PDF**  
-- Explored **API security checks** with valid, invalid, and expired tokens  
+## 🔹 Performance Testing
+- Used **JMeter** for load and stress testing on APIs  
+- Measured **response times, throughput, CPU/memory utilization**  
+- Generated **dashboards** to identify bottlenecks  
+[Go to Performance Testing](./05-Performance_Testing/README.md)  
 
 ---
 
-### [04-Test_Automation_Frameworks](./04-Test_Automation_Frameworks/README.md)
-- Built test automation with **Selenium WebDriver, TestNG, JUnit, Pytest**  
-- Implemented **Page Object Model (POM)** and **data-driven testing**  
-- Created **modular and reusable components**  
-- Integrated **SQL queries** into test flows for validation  
-- Connected automation into **CI pipelines** with reporting and logging  
+## 🔹 CI/CD & DevOps
+- Integrated automated tests into **Jenkins pipelines**  
+- Monitored **build health, reporting, and deployment readiness**  
+[Go to Automation Frameworks / CI/CD](./04-Test_Automation_Frameworks/README.md)  
 
 ---
 
-### [05-Performance_Testing](./05-Performance_Testing/README.md)
-- Designed and executed **performance tests using Apache JMeter** on the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)  
-- Measured **response times, throughput, utilization, and scalability** for multiple endpoints (GET /posts, GET /posts/1, POST /users)  
-- Simulated **parallel and sequential user execution** using thread groups to reflect real-world load  
-- Applied **advanced controllers**: Loop, Runtime, Throughput, Once Only  
-- Configured **timers and response assertions** to ensure endpoints returned expected status codes (200 / 201)  
-- Generated **HTML dashboard reports** and documented findings to identify bottlenecks and system limits
-
- 
-
----
-
-
-### [Real_World_Projects](./Real_World_Projects/README.md)
-- End-to-end projects combining **manual, automation, API, and CI/CD testing**  
-- Show full QA lifecycle applied to **real-world apps**  
-- Provide **test artifacts, execution results, and reports** in one place  
-- Highlight ability to deliver **release readiness through QA practices**  
-
----
-
-## 💡 What I Bring to the Table
-Although early in my software testing career, I bring:  
-- A strong **manual testing foundation** (test design, bug reporting, planning)  
-- The ability to **apply automation and API testing** in practical projects  
-- Exposure to **performance and CI/CD testing practices**  
-- A habit of **clear documentation** and structured reporting  
-
-My focus is on growing into a **well-rounded software tester** who not only executes tests but also understands how testing supports the **whole development process**.  
+## 🔹 Real World Projects
+- End-to-end QA combining **manual, automation, API, performance, and CI/CD**  
+- Delivered **release-ready artifacts, dashboards, and reports**  
+[Go to Real World Projects](./Real_World_Projects/README.md)  
 
 ---
 
 ## 📬 Contact
-📧 **Email:** [thegr8amrbusiness@gmail.com](mailto:thegr8amrbusiness@gmail.com)  
-💼 **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/)  
+📧 [thegr8amrbusiness@gmail.com](mailto:thegr8amrbusiness@gmail.com)  
+💼 [LinkedIn](https://www.linkedin.com/)
