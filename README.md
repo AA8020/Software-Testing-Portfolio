@@ -28,10 +28,8 @@ To explore my portfolio:
 - [02-Test_Bug_Management](./02-Test_Bug_Management/README.md)  
 - [03-API_Testing](./03-API_Testing/README.md)  
 - [04-Test_Automation_Frameworks](./04-Test_Automation_Frameworks/README.md)  
-- [05-Performance_Testing](./05-Performance_Testing/README.md)  
-- [06-CICD_QA](./06-CICD_QA/README.md)  
-- [07-Exploratory_Usability](./07-Exploratory_Usability/README.md)  
-- [08-Real_World_Projects](./08-Real_World_Projects/README.md)  
+- [05-Performance_Testing](./05-Performance_Testing/README.md)
+- [Real_World_Projects](./Real_World_Projects/README.md)  
 
 ---
 
@@ -84,23 +82,8 @@ To explore my portfolio:
 
 ---
 
-### [06-CICD_QA](./06-CICD_QA/README.md)
-- Integrated automated tests into **CI pipelines** (GitHub Actions, Jenkins)  
-- Practiced a **shift-left approach** with early testing in pipelines  
-- Executed **functional, API, and regression tests** during builds  
-- Set up **quality gates** to prevent faulty deployments  
 
----
-
-### [07-Exploratory_Usability](./07-Exploratory_Usability/README.md)
-- Practiced **exploratory testing** with session-based approaches  
-- Used **mind maps** to visualize coverage and testing ideas  
-- Applied **usability and accessibility heuristics** to demo applications  
-- Captured findings that highlight **potential user pain points**  
-
----
-
-### [08-Real_World_Projects](./08-Real_World_Projects/README.md)
+### [Real_World_Projects](./Real_World_Projects/README.md)
 - End-to-end projects combining **manual, automation, API, and CI/CD testing**  
 - Show full QA lifecycle applied to **real-world apps**  
 - Provide **test artifacts, execution results, and reports** in one place  
