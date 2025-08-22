@@ -1,0 +1,368 @@
+{
+	"id": "1d7ebf4d-df7d-4e19-9eee-a965cdc65d08",
+	"name": "ReqRes_API",
+	"timestamp": "2025-08-22T02:13:57.908Z",
+	"collection_id": "32502079-2748aad4-d731-4c6e-be87-732d766ee413",
+	"folder_id": 0,
+	"environment_id": "32502079-952d3354-4301-43f5-a0f0-684509b62d45",
+	"totalPass": 16,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-08-22T02:13:55.476Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "40052164-dec7-467a-a1f2-a88345440e93",
+			"name": "Register unsuccessful",
+			"url": "https://reqres.in/api/register",
+			"time": 109,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response status code is 400, not registered ": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 400, not registered ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"Response status code is 400, not registered ": true
+				}
+			]
+		},
+		{
+			"id": "36725536-5eb0-4c19-a660-c4a3d6e2c965",
+			"name": "Login successful",
+			"url": "https://reqres.in/api/login",
+			"time": 87,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response has token": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has token": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				87
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response has token": true
+				}
+			]
+		},
+		{
+			"id": "e5763483-9741-4378-8db5-b8fddceb6cdd",
+			"name": "Login unsuccessful",
+			"url": "https://reqres.in/api/login",
+			"time": 92,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response status code is 400, user not found": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 400, user not found": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				92
+			],
+			"allTests": [
+				{
+					"Response status code is 400, user not found": true
+				}
+			]
+		},
+		{
+			"id": "8f992cff-b451-422d-acf9-94572e371475",
+			"name": "Register successful",
+			"url": "https://reqres.in/api/register",
+			"time": 97,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response has token": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has token": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				97
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response has token": true
+				}
+			]
+		},
+		{
+			"id": "8fae706d-f1d7-48ce-b510-2d8a162a880c",
+			"name": "List users",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 59,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response has data array": true,
+				"Each user has id and email": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has data array": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Each user has id and email": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				59
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response has data array": true,
+					"Each user has id and email": true
+				}
+			]
+		},
+		{
+			"id": "bb435143-68e6-4474-82d9-a4bfdbaf1689",
+			"name": "Get single user",
+			"url": "https://reqres.in/api/users/2",
+			"time": 60,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"User object has required fields": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User object has required fields": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				60
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"User object has required fields": true
+				}
+			]
+		},
+		{
+			"id": "dd2ccbaf-6cfa-4149-abbb-51e3412ec5a2",
+			"name": "Not found user",
+			"url": "https://reqres.in/api/users/23",
+			"time": 59,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response is 404": true
+			},
+			"testPassFailCounts": {
+				"Response is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				59
+			],
+			"allTests": [
+				{
+					"Response is 404": true
+				}
+			]
+		},
+		{
+			"id": "d2ae9e07-a63f-4cf7-9b9d-e17816340880",
+			"name": "Edit user 1",
+			"url": "https://reqres.in/api/users/23",
+			"time": 119,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				119
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3519bf60-6b87-4a23-a109-5af073550629",
+			"name": "Delete user",
+			"url": "https://reqres.in/api/users/2",
+			"time": 86,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				86
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "2b1fb986-e944-47b7-bce8-a8f5d608bbb2",
+			"name": "Create user",
+			"url": "https://reqres.in/api/users",
+			"time": 90,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response status code is 201": true,
+				"Response has name, job, id, createdAt": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has name, job, id, createdAt": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				90
+			],
+			"allTests": [
+				{
+					"Response status code is 201": true,
+					"Response has name, job, id, createdAt": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 858,
+	"collection": {
+		"requests": [
+			{
+				"id": "40052164-dec7-467a-a1f2-a88345440e93",
+				"method": "POST"
+			},
+			{
+				"id": "36725536-5eb0-4c19-a660-c4a3d6e2c965",
+				"method": "POST"
+			},
+			{
+				"id": "e5763483-9741-4378-8db5-b8fddceb6cdd",
+				"method": "POST"
+			},
+			{
+				"id": "8f992cff-b451-422d-acf9-94572e371475",
+				"method": "POST"
+			},
+			{
+				"id": "8fae706d-f1d7-48ce-b510-2d8a162a880c",
+				"method": "GET"
+			},
+			{
+				"id": "bb435143-68e6-4474-82d9-a4bfdbaf1689",
+				"method": "GET"
+			},
+			{
+				"id": "dd2ccbaf-6cfa-4149-abbb-51e3412ec5a2",
+				"method": "GET"
+			},
+			{
+				"id": "d2ae9e07-a63f-4cf7-9b9d-e17816340880",
+				"method": "PUT"
+			},
+			{
+				"id": "3519bf60-6b87-4a23-a109-5af073550629",
+				"method": "DELETE"
+			},
+			{
+				"id": "2b1fb986-e944-47b7-bce8-a8f5d608bbb2",
+				"method": "POST"
+			}
+		]
+	}
+}

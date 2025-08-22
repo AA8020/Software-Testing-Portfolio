@@ -2,7 +2,7 @@
 
 ## 📌 Overview  
 This project demonstrates my ability to design, execute, and document [API testing](https://www.postman.com/api-testing/) using [Postman](https://www.postman.com/) and [Newman](https://www.npmjs.com/package/newman).  
-It covers both functional API testing (CRUD and workflows) and non-functional aspects such as [API Security](https://owasp.org/www-project-api-security/) focusing on authorization and authentication.  
+  
 
 Instead of leaving only raw configs, I’ve included screenshots, clear reports, and well-documented findings. This makes it easy for both technical and non-technical readers to quickly see how I test, what I found, and how I present results.  
 
@@ -43,13 +43,6 @@ This repository shows that I can test APIs effectively, analyze results, and com
   - Execution reports in HTML and PDF format  
   - Key findings and bug notes  
 
-### 3. [Security](./Security)  
-- **Focus**: API security testing for authorization and authentication  
-- **What you will find**:  
-  - Screenshots comparing valid, invalid, and expired tokens  
-  - Reports documenting pass and fail results from security tests  
-  - Documentation of any vulnerabilities found  
-
 ---
 
 ## 📂 Key Artifacts in This Repository  
@@ -66,6 +59,5 @@ This repository shows that I can test APIs effectively, analyze results, and com
 - [Newman](https://www.npmjs.com/package/newman) for exporting test runs into shareable reports  
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) as a public API for CRUD testing  
 - [Reqres](https://reqres.in/) as a public API for authentication and user scenarios  
-- [OWASP API Security](https://owasp.org/www-project-api-security/) guidelines for security testing  
 
 ---
