@@ -1,9 +1,14 @@
 <p align="center">
   <a href="https://www.istqb.org/"><img src="https://img.shields.io/badge/ISTQB-CTFL4-blue" alt="ISTQB Certified"></a>
   <a href="https://www.selenium.dev/"><img src="https://img.shields.io/badge/Selenium-WebDriver-green" alt="Selenium"></a>
-  <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-Programming-orange" alt="Java"></a>
-  <a href="https://www.jenkins.io/"><img src="https://img.shields.io/badge/Jenkins-CI/CD-red" alt="Jenkins"></a>
+  <a href="https://playwright.dev/"><img src="https://img.shields.io/badge/Playwright-Basic-purple" alt="Playwright"></a>
+  <a href="https://www.katalon.com/"><img src="https://img.shields.io/badge/Katalon-Basic-orange" alt="Katalon Studio"></a>
+  <a href="https://www.selenium.dev/selenium-ide/"><img src="https://img.shields.io/badge/Selenium_IDE-Codeless-red" alt="Selenium IDE"></a>
+  <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-Programming-lightblue" alt="Java"></a>
+  <a href="https://www.w3schools.com/sql/"><img src="https://img.shields.io/badge/SQL-Basic-yellow" alt="SQL"></a>
+  <a href="https://www.jenkins.io/"><img src="https://img.shields.io/badge/Jenkins-CI/CD-lightgrey" alt="Jenkins"></a>
 </p>
+
 
 <p align="center">
   <a href="#testing-fundamentals"><img src="https://img.shields.io/badge/01-Fundamentals-blue" alt="Fundamentals"></a>
@@ -16,18 +21,20 @@
 
 # 🧪 Software Testing Portfolio
 
-**ISTQB® CTFL v4 certified junior software tester**
+**ISTQB® CTFL v4 certified Junior Software Tester** with hands-on experience across **Manual, Automation, API, Performance testing, and CI/CD**.  
 
-Hands-on experience: **Manual | Automation | API | Performance | CI/CD**  
+Skilled at designing and executing **end-to-end QA processes**, from requirements and test planning to execution, reporting, and continuous improvement.  
 
-**Top Skills:** Manual Testing | Selenium | JUnit/TestNG | Pytest | Postman | Newman | JMeter | CI/CD | SQL | Agile  
+**Top Skills:** Manual Testing | Selenium WebDriver | Playwright (Basic) | Katalon Studio (Basic) | Selenium IDE | TestNG | Java | SQL (Basic) | JUnit | Pytest | Postman | Newman | JMeter | CI/CD | Agile  
+ 
 
 ---
 
 ## 🔹 01 – Testing Fundamentals
 <a name="testing-fundamentals"></a>
 - Full QA lifecycle: **requirements → planning → test design → execution → reporting**  
-- Designed **test cases**, built **traceability matrices**, executed **Agile sprints**  
+- Designed **test cases**, built **traceability matrices**, executed **Agile sprints**
+
 [Explore Folder](./01-Testing_Fundamentals/README.md)  
 
 ---
@@ -36,7 +43,8 @@ Hands-on experience: **Manual | Automation | API | Performance | CI/CD**
 <a name="test-bug-management"></a>
 - Worked with **Jira, Zephyr, Azure DevOps** for test case & defect management  
 - Applied **severity & priority classification** for reproducible bug reports  
-- Demonstrated **cross-tool workflows**  
+- Demonstrated **cross-tool workflows**
+
 [Explore Folder](./02-Test_Bug_Management/README.md)  
 
 ---
@@ -45,17 +53,19 @@ Hands-on experience: **Manual | Automation | API | Performance | CI/CD**
 <a name="api-testing"></a>
 - Tested **REST APIs** using Postman & Newman  
 - Covered **CRUD, authentication, error handling, positive/negative scenarios**  
-- Automated tests with **HTML/PDF reporting** and **security validations**  
+- Automated tests with **HTML/PDF reporting** and **security validations**
+
 [Explore Folder](./03-API_Testing/README.md)  
 
 ---
 
 ## 🔹 04 – Test Automation Frameworks
 <a name="test-automation-frameworks"></a>
-- Built automation with **Selenium WebDriver, TestNG, JUnit, Pytest**  
-- Implemented **Page Object Model (POM), data-driven tests, reusable modules**  
-- Integrated **SQL validations** and **CI/CD pipelines**  
-[Explore Folder](./04-Test_Automation_Frameworks/README.md)  
+- Demonstrates **end-to-end automation skills** using both code-based and codeless tools.  
+- Covers **Selenium WebDriver, Playwright, Katalon Studio, Selenium IDE, TestNG, Java, and SQL**.  
+- Highlights framework design, reusable scripts, database verification, parallel execution, and CI/CD integration.  
+
+[Explore Folder](./04-Test_Automation/README.md)
 
 ---
 
@@ -63,7 +73,8 @@ Hands-on experience: **Manual | Automation | API | Performance | CI/CD**
 <a name="performance-testing"></a>
 - Designed & executed **JMeter performance tests** on live APIs  
 - Measured **response time, throughput, CPU/memory utilization**  
-- Simulated **parallel & sequential users**, generated **dashboard reports**  
+- Simulated **parallel & sequential users**, generated **dashboard reports**
+
 [Explore Folder](./05-Performance_Testing/README.md)  
 
 ---
@@ -72,7 +83,8 @@ Hands-on experience: **Manual | Automation | API | Performance | CI/CD**
 <a name="real-world-projects"></a>
 - Conducted **manual testing** for live applications (functional, usability, responsiveness, non-functional)  
 - Full-cycle QA for **BetterImages AI Web Application**, including test coverage, bug reporting, verification, and QA report delivery  
-- More projects and **automation/API testing** to be added soon  
+- More projects and **automation/API testing** to be added soon
+
 [Explore Folder](./Real_World_Projects/README.md)
 
 
