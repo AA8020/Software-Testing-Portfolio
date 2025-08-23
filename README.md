@@ -65,7 +65,7 @@ Skilled at designing and executing **end-to-end QA processes**, from requirement
 - Covers **Selenium WebDriver, Playwright, Katalon Studio, Selenium IDE, TestNG, Java, and SQL**.  
 - Highlights framework design, reusable scripts, database verification, parallel execution, and CI/CD integration.  
 
-[Explore Folder](./Test_Automation/README.md)
+[Explore Folder](./04-Test_Automation/README.md)
 
 ---
 
