@@ -59,13 +59,13 @@ Skilled at designing and executing **end-to-end QA processes**, from requirement
 
 ---
 
-## 🔹 04 – Test Automation Frameworks
-<a name="test-automation-frameworks"></a>
+## 🔹 04 – Test Automation 
+<a name="test-automation"></a>
 - Demonstrates **end-to-end automation skills** using both code-based and codeless tools.  
 - Covers **Selenium WebDriver, Playwright, Katalon Studio, Selenium IDE, TestNG, Java, and SQL**.  
 - Highlights framework design, reusable scripts, database verification, parallel execution, and CI/CD integration.  
 
-[Explore Folder](./04-Test_Automation/README.md)
+[Explore Folder](./Test_Automation/README.md)
 
 ---
 
