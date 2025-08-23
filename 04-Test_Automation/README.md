@@ -1,7 +1,7 @@
 # 04-Test_Automation
 
 ## 📌 Overview  
-This project demonstrates my ability to design, implement, and document **test automation frameworks** using a mix of code-based and codeless tools.  
+This section demonstrates my ability to design, implement, and document **test automation frameworks** using a mix of code-based and codeless tools.  
 
 Instead of leaving only raw scripts and configuration files, I’ve included **well-documented examples, structured frameworks, and clear instructions**, making it easy for technical and non-technical readers to see how I automate tests, structure frameworks, and produce maintainable solutions.  
 
