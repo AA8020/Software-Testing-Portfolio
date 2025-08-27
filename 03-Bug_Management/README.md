@@ -1,4 +1,4 @@
-# 3. Bug Management (02-Test_Bug_Management)
+# 3. Bug Management (03-Bug_Management)
 
 ## 📌 Overview  
 This folder showcases **industry-standard test case creation and bug reporting** using **Zephyr Scale (Jira), Jira (Defect Reports), and Azure DevOps (Bug Reports).**  

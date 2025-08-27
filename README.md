@@ -39,6 +39,16 @@ Skilled at designing and executing **end-to-end QA processes**, from requirement
 
 ---
 
+## 🔹 2. Automation Testing
+<a name="automation-testing"></a>
+- Demonstrates **end-to-end automation skills** using both code-based and codeless tools.  
+- Covers **Selenium WebDriver, Playwright, Katalon Studio, Selenium IDE, TestNG, Java, and SQL**.  
+- Highlights framework design, reusable scripts, database verification, parallel execution, and CI/CD integration.  
+
+[Explore Folder](./02-Automation_Testing/README.md)
+
+---
+
 ## 🔹 3. Bug Management
 <a name="bug-management"></a>
 - Worked with **Jira, Zephyr, Azure DevOps** for test case & defect management  
@@ -59,17 +69,7 @@ Skilled at designing and executing **end-to-end QA processes**, from requirement
 
 ---
 
-## 🔹 2. Automation Testing 
-<a name="automation-testing"></a>
-- Demonstrates **end-to-end automation skills** using both code-based and codeless tools.  
-- Covers **Selenium WebDriver, Playwright, Katalon Studio, Selenium IDE, TestNG, Java, and SQL**.  
-- Highlights framework design, reusable scripts, database verification, parallel execution, and CI/CD integration.  
-
-[Explore Folder](./02-Automation_Testing/README.md)
-
----
-
-## 🔹 05 – Performance Testing
+## 🔹 5. Performance Testing
 <a name="performance-testing"></a>
 - Designed & executed **JMeter performance tests** on live APIs  
 - Measured **response time, throughput, CPU/memory utilization**  
