@@ -1,4 +1,4 @@
-# 2. Automation Testing (02-Automation_Testing)
+# 2. Automation Testing 
 
 ## 📌 Overview  
 This section demonstrates my ability to design, implement, and document **test automation frameworks** using a combination of code-based and codeless tools.  

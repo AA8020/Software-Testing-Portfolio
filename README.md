@@ -19,7 +19,7 @@
   <a href="#real-world-projects"><img src="https://img.shields.io/badge/Real_World_Projects-lightblue" alt="Real Projects"></a>
 </p>
 
-# 🧪 Software Testing Portfolio
+## 👤 About Me
 
 **ISTQB® CTFL v4 certified Junior Software Tester** with hands-on experience across **Manual, Automation, API, Performance testing, and CI/CD**.  
 
@@ -49,7 +49,7 @@ Skilled at designing and executing **end-to-end QA processes**, from requirement
 
 ---
 
-## 🔹 3. Bug Management
+## 🔹 3. Bug Management Tools
 <a name="bug-management"></a>
 - Worked with **Jira, Zephyr, Azure DevOps** for test case & defect management  
 - Applied **severity & priority classification** for reproducible bug reports  
