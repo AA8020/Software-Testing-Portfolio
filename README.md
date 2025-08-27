@@ -11,10 +11,10 @@
 
 
 <p align="center">
-  <a href="#testing-fundamentals"><img src="https://img.shields.io/badge/01-Fundamentals-blue" alt="Fundamentals"></a>
-  <a href="#test-bug-management"><img src="https://img.shields.io/badge/02-Bug_Management-yellow" alt="Bug Management"></a>
-  <a href="#api-testing"><img src="https://img.shields.io/badge/03-API_Testing-green" alt="API Testing"></a>
-  <a href="#test-automation-frameworks"><img src="https://img.shields.io/badge/04-Automation_Frameworks-red" alt="Automation"></a>
+  <a href="#manual-testing"><img src="https://img.shields.io/badge/01-Manual_Testing-blue" alt="Manual Testing"></a>
+  <a href="#automation-testing"><img src="https://img.shields.io/badge/02-Automation_Testing-red" alt="Automation Testing"></a>
+  <a href="#bug-management"><img src="https://img.shields.io/badge/03-Bug_Management-yellow" alt="Bug Management"></a>
+  <a href="#api-testing"><img src="https://img.shields.io/badge/04-API_Testing-green" alt="API Testing"></a>
   <a href="#performance-testing"><img src="https://img.shields.io/badge/05-Performance_Testing-purple" alt="Performance"></a>
   <a href="#real-world-projects"><img src="https://img.shields.io/badge/Real_World_Projects-lightblue" alt="Real Projects"></a>
 </p>
@@ -30,42 +30,42 @@ Skilled at designing and executing **end-to-end QA processes**, from requirement
 
 ---
 
-## 🔹 01 – Testing Fundamentals
-<a name="testing-fundamentals"></a>
+## 🔹 1. Manual Testing
+<a name="manual-testing"></a>
 - Full QA lifecycle: **requirements → planning → test design → execution → reporting**  
 - Designed **test cases**, built **traceability matrices**, executed **Agile sprints**
 
-[Explore Folder](./01-Testing_Fundamentals/README.md)  
+[Explore Folder](./01-Manual_Testing/README.md)  
 
 ---
 
-## 🔹 02 – Test & Bug Management
-<a name="test-bug-management"></a>
+## 🔹 3. Bug Management
+<a name="bug-management"></a>
 - Worked with **Jira, Zephyr, Azure DevOps** for test case & defect management  
 - Applied **severity & priority classification** for reproducible bug reports  
 - Demonstrated **cross-tool workflows**
 
-[Explore Folder](./02-Test_Bug_Management/README.md)  
+[Explore Folder](./03-Bug_Management/README.md)  
 
 ---
 
-## 🔹 03 – API Testing
+## 🔹 4. API Testing
 <a name="api-testing"></a>
 - Tested **REST APIs** using Postman & Newman  
 - Covered **CRUD, authentication, error handling, positive/negative scenarios**  
 - Automated tests with **HTML/PDF reporting** and **security validations**
 
-[Explore Folder](./03-API_Testing/README.md)  
+[Explore Folder](./04-API_Testing/README.md)  
 
 ---
 
-## 🔹 04 – Test Automation 
-<a name="test-automation"></a>
+## 🔹 2. Automation Testing 
+<a name="automation-testing"></a>
 - Demonstrates **end-to-end automation skills** using both code-based and codeless tools.  
 - Covers **Selenium WebDriver, Playwright, Katalon Studio, Selenium IDE, TestNG, Java, and SQL**.  
 - Highlights framework design, reusable scripts, database verification, parallel execution, and CI/CD integration.  
 
-[Explore Folder](./04-Test_Automation/README.md)
+[Explore Folder](./02-Automation_Testing/README.md)
 
 ---
 

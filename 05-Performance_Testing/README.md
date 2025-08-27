@@ -1,4 +1,4 @@
-# 05-Performance_Testing
+# 5. Performance Testing (05-Performance_Testing)
 
 ## 📌 Overview
 This project demonstrates **performance testing using Apache JMeter** on the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/).  
