@@ -12,13 +12,23 @@ import java.util.Date;
 
 public class ScreenshotUtil {
     public static Path takeScreenshot(WebDriver driver, String name) {
+        if (driver == null) return null;
+        String ts = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         try {
-            File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String ts = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-            Path dst = Path.of("target", "screenshots", name + "_" + ts + ".png");
-            Files.createDirectories(dst.getParent());
-            Files.copy(src.toPath(), dst);
-            return dst;
+            if (driver instanceof TakesScreenshot) {
+                File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+                Path dst = Path.of("target", "screenshots", name + "_" + ts + ".png");
+                Files.createDirectories(dst.getParent());
+                Files.copy(src.toPath(), dst);
+                return dst;
+            } else {
+                // fallback: save page source as HTML
+                String page = driver.getPageSource();
+                Path dst = Path.of("target", "screenshots", name + "_" + ts + ".html");
+                Files.createDirectories(dst.getParent());
+                Files.writeString(dst, page);
+                return dst;
+            }
         } catch (Exception e) {
             e.printStackTrace();
             return null;
