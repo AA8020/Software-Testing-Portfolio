@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import java.time.Duration;
 
 public final class DriverFactory {
 
@@ -24,7 +25,11 @@ public final class DriverFactory {
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions co = new ChromeOptions();
                 if (headless) co.addArguments("--headless=new");
+                // Common CI-friendly flags and window size for headless runs
                 co.addArguments("--window-size=1920,1080");
+                co.addArguments("--disable-gpu");
+                co.addArguments("--no-sandbox");
+                co.addArguments("--disable-dev-shm-usage");
                 return new ChromeDriver(co);
         }
     }

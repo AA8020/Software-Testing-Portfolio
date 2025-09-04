@@ -87,3 +87,31 @@ The repo follows a **clean automation framework structure**:
 - Allure Reports
 - GitHub Actions (for CI/CD)
 - IntelliJ IDEA
+
+---
+
+
+## Try it (run tests locally)
+
+Quick compile (skip running browser tests):
+
+```bash
+# from the repository root (portable, no user-specific paths)
+cd 02-Automation_Testing/01-Selenium_WebDriver
+mvn -DskipTests package
+```
+
+Run the TestNG suite (uses browser settings from `config.properties`):
+
+```bash
+# run from the same folder as the pom.xml
+mvn test
+```
+
+Run headless or on a different browser (override via -D):
+
+```bash
+# examples (works in bash and CI)
+mvn -DBROWSER=firefox -DHEADLESS=true test
+mvn -DBROWSER=chrome -DHEADLESS=false test
+```

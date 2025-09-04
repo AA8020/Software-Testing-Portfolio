@@ -13,7 +13,7 @@ public class ConfigReader {
                 props.load(in);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new IllegalStateException("Failed to load config.properties", e);
         }
     }
 

@@ -12,6 +12,9 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+    <!-- Default system properties for convenience -->
+    <BROWSER>chrome</BROWSER>
+    <HEADLESS>false</HEADLESS>
     </properties>
 
     <dependencies>
