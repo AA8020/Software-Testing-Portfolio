@@ -1,0 +1,28 @@
+# IntelliJ project files
+.idea/
+*.iml
+out/
+
+# Maven target folder
+target/
+
+# Logs
+*.log
+
+# Test results
+allure-results/
+allure-report/
+surefire-reports/
+
+# Screenshots from test runs (optional, keep if you want them in repo)
+screenshots/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Eclipse/NetBeans (just in case you open project there)
+.classpath
+.project
+.settings/
+nbproject/
