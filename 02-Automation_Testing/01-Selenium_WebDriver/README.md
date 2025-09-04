@@ -1,5 +1,7 @@
 # 🚀 Selenium WebDriver – Core Automation
 
+![Java CI with Maven](https://github.com/AA8020/Software-Testing-Portfolio/actions/workflows/maven.yml/badge.svg)
+
 
 
 ## 📌 Overview
