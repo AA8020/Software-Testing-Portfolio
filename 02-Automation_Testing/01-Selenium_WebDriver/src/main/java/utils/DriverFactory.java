@@ -7,6 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import java.time.Duration;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.io.IOException;
 
 public final class DriverFactory {
 
@@ -30,6 +33,17 @@ public final class DriverFactory {
                 co.addArguments("--disable-gpu");
                 co.addArguments("--no-sandbox");
                 co.addArguments("--disable-dev-shm-usage");
+                co.addArguments("--no-first-run");
+                co.addArguments("--no-default-browser-check");
+
+                // Create a unique user-data-dir to prevent 'already in use' errors on CI runners
+                try {
+                    Path tmp = Files.createTempDirectory("chrome-user-data-");
+                    co.addArguments("--user-data-dir=" + tmp.toAbsolutePath().toString());
+                } catch (IOException ignored) {
+                    // if temp dir can't be created, continue without it
+                }
+
                 return new ChromeDriver(co);
         }
     }
