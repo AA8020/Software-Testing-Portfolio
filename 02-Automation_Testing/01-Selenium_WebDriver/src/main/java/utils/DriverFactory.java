@@ -27,6 +27,13 @@ public final class DriverFactory {
             default:
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions co = new ChromeOptions();
+
+                // If running in CI, force headless mode for stability unless explicitly requested.
+                boolean inCI = System.getenv("GITHUB_ACTIONS") != null || System.getenv("CI") != null;
+                if (inCI) {
+                    headless = true;
+                }
+
                 if (headless) co.addArguments("--headless=new");
                 // Common CI-friendly flags and window size for headless runs
                 co.addArguments("--window-size=1920,1080");
@@ -35,13 +42,27 @@ public final class DriverFactory {
                 co.addArguments("--disable-dev-shm-usage");
                 co.addArguments("--no-first-run");
                 co.addArguments("--no-default-browser-check");
+                co.addArguments("--disable-extensions");
+                co.addArguments("--disable-translate");
+                co.addArguments("--disable-background-networking");
 
-                // Create a unique user-data-dir to prevent 'already in use' errors on CI runners
+                // Create unique user-data and cache dirs with UUID to avoid collisions across processes
                 try {
-                    Path tmp = Files.createTempDirectory("chrome-user-data-");
-                    co.addArguments("--user-data-dir=" + tmp.toAbsolutePath().toString());
+                    String uuid = java.util.UUID.randomUUID().toString();
+                    Path userData = Files.createTempDirectory("chrome-user-data-" + uuid + "-");
+                    Path cacheDir = Files.createTempDirectory("chrome-cache-" + uuid + "-");
+                    co.addArguments("--user-data-dir=" + userData.toAbsolutePath().toString());
+                    co.addArguments("--disk-cache-dir=" + cacheDir.toAbsolutePath().toString());
+                    // attempt best-effort cleanup on JVM exit
+                    Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+                        try {
+                            if (Files.exists(userData)) Files.walk(userData).map(Path::toFile).forEach(java.io.File::delete);
+                            if (Files.exists(cacheDir)) Files.walk(cacheDir).map(Path::toFile).forEach(java.io.File::delete);
+                        } catch (Exception ignored) {
+                        }
+                    }));
                 } catch (IOException ignored) {
-                    // if temp dir can't be created, continue without it
+                    // if temp dirs can't be created, continue without them
                 }
 
                 return new ChromeDriver(co);
