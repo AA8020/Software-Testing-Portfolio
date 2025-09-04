@@ -4,6 +4,8 @@
     <test name="SampleTest">
         <classes>
             <class name="pages.LoginPageTest"/>
+ 	    <class name="pages.InventoryPage"/>
+	    <class name="pages.CartPage"/>
             <class name="tests.SauceDemoTest"/>
         </classes>
     </test>
