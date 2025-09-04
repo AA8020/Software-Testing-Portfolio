@@ -20,15 +20,15 @@ This repository shows that I can implement **professional-grade automation frame
 ## 🎯 Knowledge Demonstrated & How to Navigate  
 
 ### 1️⃣ [Selenium WebDriver](./01-Selenium_WebDriver)  
-- **Focus**: Core automation scripts for web applications  
+- **Focus**: Core automation framework and example scripts for web applications (Java + Selenium WebDriver)  
 - **Skills**:  
-  - Automated web workflows across multiple browsers  
-  - Implemented Page Object Model (POM) for maintainable scripts  
-  - Handled dynamic elements using waits and reliable locators  
+  - Browser automation using WebDriverManager and a configurable Chrome driver  
+  - Implemented Page Object Model (POM) for maintainable scripts (Login, Inventory, Cart)  
+  - Robust synchronization using explicit and implicit waits and reliable locators  
 - **What you will find**:  
-  - Example scripts using Java and WebDriver  
-  - Page Object Model implementations  
-  - Dynamic element handling and waits  
+  - Example TestNG script: `src/test/java/com/amr/automation/tests/SauceDemoTest.java`  
+  - Page Object Model implementations: `src/main/java/com.amr/automation/pages/{LoginPage,InventoryPage,CartPage}.java`  
+  - Utilities and helpers: `src/main/java/com/amr/automation/utils/{DriverFactory,ConfigReader,ScreenshotUtil}.java` and failure artifacts written to `target/screenshots` on test failures
 
 ### 2️⃣ [Java Programming](./02-Java_Programming)  
 - **Focus**: Foundational programming for automation  
