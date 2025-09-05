@@ -18,8 +18,7 @@ This repository shows that I can implement **professional-grade automation frame
 ---
 
 ## 🎯 Knowledge Demonstrated & How to Navigate  
-### 1️⃣ Java Browser Automation (Selenium WebDriver)
-[Java Browser Automation (Selenium WebDriver)](./01-Java_Browser_Automation/)
+### 1️⃣ [Java Browser Automation (Selenium WebDriver)](./01-Java_Browser_Automation/)
 - **Focus**: Core automation framework and example scripts for web applications using Java and a Java-based Browser Automation Framework (Selenium WebDriver)  
 - **Skills**:  
   - Browser automation using WebDriverManager and a configurable Chrome driver  
