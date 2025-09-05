@@ -20,7 +20,7 @@ This repository shows that I can implement **professional-grade automation frame
 ## 🎯 Knowledge Demonstrated & How to Navigate  
 ### 1️⃣ [Java Browser Automation (Selenium WebDriver)](./01-Java_Browser_Automation/)
 - **Focus**: Core automation framework and example scripts for web applications using Java and a Java-based Browser Automation Framework (Selenium WebDriver)  
--- **Skills**:  
+- **Skills**:  
   - Browser automation using WebDriverManager and a configurable Chrome driver  
   - Implemented Page Object Model (POM) for maintainable scripts (Login, Inventory, Cart)  
   - Robust synchronization using explicit and implicit waits and reliable locators  
