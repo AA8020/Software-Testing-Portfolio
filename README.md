@@ -25,7 +25,7 @@
 
 Skilled at designing and executing **end-to-end QA processes**, from requirements and test planning to execution, reporting, and continuous improvement.  
 
-**Top Skills:** Manual Testing | Selenium WebDriver | Playwright (Basic) | Katalon Studio (Basic) | Selenium IDE | TestNG | Java | SQL (Basic) | JUnit | Pytest | Postman | Newman | JMeter | CI/CD | Agile  
+**Top Skills:** Manual Testing | Java-based Browser Automation Framework (Selenium WebDriver) | Playwright (Basic) | Katalon Studio (Basic) | Selenium IDE | TestNG | Java | SQL (Basic) | JUnit | Pytest | Postman | Newman | JMeter | CI/CD | Agile  
  
 
 ---
@@ -42,7 +42,7 @@ Skilled at designing and executing **end-to-end QA processes**, from requirement
 ## 🔹 2. Automation Testing
 <a name="automation-testing"></a>
 - Demonstrates **end-to-end automation skills** using both code-based and codeless tools.  
-- Covers **Selenium WebDriver, Playwright, Katalon Studio, Selenium IDE, TestNG, Java, and SQL**.  
+- Covers **Java-based Browser Automation Framework (Selenium WebDriver), Playwright, Katalon Studio, Selenium IDE, TestNG, Java, and SQL**.  
 - Highlights framework design, reusable scripts, database verification, parallel execution, and CI/CD integration.  
 
 [Explore Folder](./02-Automation_Testing/README.md)

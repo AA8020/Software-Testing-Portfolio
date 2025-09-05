@@ -64,4 +64,4 @@ This folder shows that I can **use SQL effectively in automation** to verify app
 - [MySQL](https://www.mysql.com/) / [PostgreSQL](https://www.postgresql.org/) for database testing  
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/) (optional) for additional practice  
 - [Java](https://www.java.com/) for integrating queries into automated tests  
-- [Selenium WebDriver](https://www.selenium.dev/) or [Katalon Studio](https://www.katalon.com/) for end-to-end automation
+- Java-based Browser Automation Framework (Selenium WebDriver) or [Katalon Studio](https://www.katalon.com/) for end-to-end automation

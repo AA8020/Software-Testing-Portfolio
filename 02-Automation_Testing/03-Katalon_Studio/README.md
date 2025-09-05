@@ -64,7 +64,7 @@ This folder shows that I can **apply basic-level automation skills** and integra
 
 ## 🛠 Tools I Used  
 - [Katalon Studio](https://www.katalon.com/) for keyword-driven and hybrid automation  
-- [Selenium WebDriver](https://www.selenium.dev/) under the hood for UI testing  
+- Java-based Browser Automation Framework (Selenium WebDriver) under the hood for UI testing  
 - [Java](https://www.java.com/) for scripting custom keywords  
 - CI/CD tools (e.g., [Jenkins](https://www.jenkins.io/)) for automated execution  
 - Built-in Katalon reporting for structured results  

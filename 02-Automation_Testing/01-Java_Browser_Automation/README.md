@@ -1,11 +1,11 @@
-# 🚀 Selenium WebDriver – Core Automation
+# 🚀 Java-based Browser Automation Framework – Core Automation
 
 ![Java CI with Maven](https://github.com/AA8020/Software-Testing-Portfolio/actions/workflows/maven.yml/badge.svg)  
 *CI build status via GitHub Actions*
 
 
 ## 📌 Overview
-This project demonstrates my practical skills with **Selenium WebDriver** for browser automation.  
+This project demonstrates my practical skills with a **Java-based Browser Automation Framework** (Selenium WebDriver) for browser automation.  
 It shows how I design page object models, configure reusable utilities, and run automated tests with TestNG.
 
 ---
@@ -22,7 +22,7 @@ The structure mimics how Selenium is used in real projects, including:
 ---
 
 ## 🎯 Knowledge Demonstrated
-- Selenium WebDriver setup & configuration
+- Java-based Browser Automation Framework (Selenium WebDriver) setup & configuration
 - Page Object Model (POM) design
 - TestNG framework integration
 - Config management (`config.properties`)
@@ -111,7 +111,7 @@ mvn test
 Run headless or on a different browser (override via -D):
 
 ```bash
-# examples (works in bash and CI)
-mvn -DBROWSER=firefox -DHEADLESS=true test
+# examples (works in bash and CI). Chrome and other browsers supported via -DBROWSER; use -DHEADLESS=true for headless runs.
+mvn -DBROWSER=chrome -DHEADLESS=true test
 mvn -DBROWSER=chrome -DHEADLESS=false test
 ```

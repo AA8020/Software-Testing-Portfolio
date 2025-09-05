@@ -19,56 +19,28 @@ This repository shows that I can implement **professional-grade automation frame
 
 ## 🎯 Knowledge Demonstrated & How to Navigate  
 
-### 1️⃣ [Selenium WebDriver](./01-Selenium_WebDriver)  
-- **Focus**: Core automation framework and example scripts for web applications (Java + Selenium WebDriver)  
+- **Focus**: Core automation framework and example scripts for web applications using Java and a Java-based Browser Automation Framework (Selenium WebDriver)  
 - **Skills**:  
   - Browser automation using WebDriverManager and a configurable Chrome driver  
   - Implemented Page Object Model (POM) for maintainable scripts (Login, Inventory, Cart)  
   - Robust synchronization using explicit and implicit waits and reliable locators  
 - **What you will find**:  
   - Example TestNG script: `src/test/java/com/amr/automation/tests/SauceDemoTest.java`  
-  - Page Object Model implementations: `src/main/java/com.amr/automation/pages/{LoginPage,InventoryPage,CartPage}.java`  
-  - Utilities and helpers: `src/main/java/com/amr/automation/utils/{DriverFactory,ConfigReader,ScreenshotUtil}.java` and failure artifacts written to `target/screenshots` on test failures
+  - Page Object Model implementations: `src/main/java/com/amr/automation/pages/{LoginPage,InventoryPage,CartPage}.java`  
+  - Utilities and helpers: `src/main/java/com/amr/automation/utils/{DriverFactory,ConfigReader,ScreenshotUtil}.java` with failure artifacts written to `target/screenshots` on test failures
 
-### 2️⃣ [Java Programming](./02-Java_Programming)  
-- **Focus**: Foundational programming for automation  
-- **Skills**:  
-  - Developed reusable scripts using loops, conditionals, methods, and OOP principles  
-  - Integrated Java code with Selenium WebDriver and TestNG  
-- **What you will find**:  
-  - Java exercises for loops, conditionals, methods, and OOP  
-  - Integration examples with Selenium and TestNG  
+ 
 
-### 3️⃣ [Locators](./03-Locators)  
-- **Focus**: Identifying and interacting with web elements  
-- **Skills**:  
-  - Crafted locators using ID, name, class, CSS selectors, and XPath  
-  - Applied best practices for dynamic or complex elements  
-- **What you will find**:  
-  - ID, name, class, CSS selector, and XPath examples  
-  - Best practices for dynamic or complex locators  
-
-### 4️⃣ [TestNG](./04-TestNG)  
-- **Focus**: Test framework management  
-- **Skills**:  
-  - Structured test suites using annotations, priorities, and data providers  
-  - Executed tests in parallel and generated detailed reports  
-  - Implemented listeners for enhanced reporting  
-- **What you will find**:  
-  - Structured test suites using annotations and data providers  
-  - Parallel execution examples  
-  - Listener implementation and reporting  
-
-### 5️⃣ [Selenium IDE (Codeless)](./05-Selenium_IDE)  
+### 2️⃣ [Selenium IDE (Codeless)](./05-Selenium_IDE)  
 - **Focus**: Quick, codeless test automation  
 - **Skills**:  
   - Recorded smoke and regression test flows  
-  - Exported scripts for integration with Selenium WebDriver  
+  - Exported scripts for integration with a Java-based Browser Automation Framework (Selenium WebDriver)  
 - **What you will find**:  
   - Recorded smoke and regression test flows  
-  - Exported scripts for integration with Selenium WebDriver  
+  - Exported scripts for integration with a Java-based Browser Automation Framework (Selenium WebDriver)  
 
-### 6️⃣ [Katalon Studio](./06-Katalon_Studio)  
+###  3️⃣ [Katalon Studio](./06-Katalon_Studio)  
 - **Focus**: Keyword-driven automation projects  
 - **Skills**:  
   - Built reusable components and custom keywords  
@@ -79,7 +51,8 @@ This repository shows that I can implement **professional-grade automation frame
   - CI/CD integration examples  
   - Web and API automation workflows  
 
-### 7️⃣ [SQL for Testers](./07-SQL_For_Testers)  
+### 4️⃣
+ [SQL for Testers](./07-SQL_For_Testers)  
 - **Focus**: Database validation for automation  
 - **Skills**:  
   - Verified database entries and performed data setup/cleanup  
@@ -89,7 +62,7 @@ This repository shows that I can implement **professional-grade automation frame
   - Data setup and cleanup scripts  
   - Integration with automated test scripts  
 
-### 8️⃣ [Playwright](./08-Playwright)  
+### 5️⃣ [Playwright](./08-Playwright)  
 - **Focus**: Cross-browser end-to-end automation  
 - **Skills**:  
   - Developed automated scripts for dynamic web pages  
@@ -112,7 +85,7 @@ This repository shows that I can implement **professional-grade automation frame
 ---
 
 ## 🛠 Tools I Used  
-- [Selenium WebDriver](https://www.selenium.dev/) for browser automation  
+- Java-based Browser Automation Framework (Selenium WebDriver) for browser automation  
 - [Selenium IDE](https://www.selenium.dev/selenium-ide/) for codeless automation  
 - [Katalon Studio](https://www.katalon.com/) for keyword-driven test automation  
 - [Playwright](https://playwright.dev/) for end-to-end automation  

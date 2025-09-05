@@ -10,7 +10,7 @@ It includes recorded tests, reusable flows, and examples of integrating codeless
 Selenium IDE is useful for **fast test creation** and **smoke/regression testing**:  
 1. Record and playback tests without coding knowledge  
 2. Quickly create reusable test flows for repetitive checks  
-3. Export recorded scripts to Selenium WebDriver for advanced customization  
+3. Export recorded scripts to a Java-based Browser Automation Framework (Selenium WebDriver) for advanced customization  
 
 This folder shows that I can **leverage codeless automation** alongside traditional frameworks to speed up testing while maintaining quality.
 
@@ -18,7 +18,7 @@ This folder shows that I can **leverage codeless automation** alongside traditio
 
 ## 🎯 Knowledge Demonstrated  
 - Recording web workflows and actions  
-- Exporting scripts to **Java + Selenium WebDriver**  
+-- Exporting scripts to **Java + a Java-based Browser Automation Framework (Selenium WebDriver)**  
 - Creating **modular, reusable test flows**  
 - Handling simple assertions, verifications, and navigation steps  
 
@@ -55,6 +55,6 @@ This folder shows that I can **leverage codeless automation** alongside traditio
 
 ## 🛠 Tools I Used  
 - [Selenium IDE](https://www.selenium.dev/selenium-ide/) for codeless automation  
-- [Selenium WebDriver](https://www.selenium.dev/) for exporting and extending scripts  
+- Java-based Browser Automation Framework (Selenium WebDriver) for exporting and extending scripts  
 - [TestNG](https://testng.org/) for structured execution of exported scripts  
 - [Java](https://www.java.com/) for coding exported tests  
