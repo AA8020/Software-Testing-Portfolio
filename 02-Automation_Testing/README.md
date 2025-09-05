@@ -40,7 +40,7 @@ This repository shows that I can implement **professional-grade automation frame
   - Recorded smoke and regression test flows  
   - Exported scripts for integration with a Java-based Browser Automation Framework (Selenium WebDriver)  
 
-###  3️⃣ [Katalon Studio](./06-Katalon_Studio)  
+### 3️⃣ [Katalon Studio](./06-Katalon_Studio)  
 - **Focus**: Keyword-driven automation projects  
 - **Skills**:  
   - Built reusable components and custom keywords  
