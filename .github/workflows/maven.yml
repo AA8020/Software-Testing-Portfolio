@@ -26,7 +26,7 @@ jobs:
       - name: List all repo files
         run: ls -R
 
-      # Step 4: Build Maven project (update working-directory once we confirm path)
+      ## Step 4: Build Maven project (update working-directory once we confirm path)
       - name: Build Selenium project
         run: mvn -B clean install
         working-directory: 02-Automation_Testing/01-Java_Browser_Automation
