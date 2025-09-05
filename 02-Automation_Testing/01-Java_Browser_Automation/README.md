@@ -11,7 +11,7 @@ It shows how I design page object models, configure reusable utilities, and run 
 ---
 
 ## 💡 Why I Included This
-- I wanted to provide recruiters and collaborators with a **realistic automation framework** example, not just raw scripts.  
+I wanted to provide recruiters and collaborators with a **realistic automation framework** example, not just raw scripts.  
 The structure mimics how Selenium is used in real projects, including:
 - Page Object Model (POM)
 - Config-driven setup
