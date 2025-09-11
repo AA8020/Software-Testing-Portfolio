@@ -51,8 +51,7 @@ This repository shows that I can implement **professional-grade automation frame
   - CI/CD integration examples  
   - Web and API automation workflows  
 
-### 4️⃣
- [SQL for Testers](./04-SQL_For_Testers)  
+### 4️⃣ [SQL for Testers](./04-SQL_For_Testers)  
 - **Focus**: Database validation for automation  
 - **Skills**:  
   - Verified database entries and performed data setup/cleanup  
