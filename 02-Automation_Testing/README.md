@@ -31,7 +31,7 @@ This repository shows that I can implement **professional-grade automation frame
 
  
 
-### 2️⃣ [Selenium IDE (Codeless)](./05-Selenium_IDE)  
+### 2️⃣ [Selenium IDE (Codeless)](./02-Selenium_IDE)  
 - **Focus**: Quick, codeless test automation  
 - **Skills**:  
   - Recorded smoke and regression test flows  
@@ -40,7 +40,7 @@ This repository shows that I can implement **professional-grade automation frame
   - Recorded smoke and regression test flows  
   - Exported scripts for integration with a Java-based Browser Automation Framework (Selenium WebDriver)  
 
-### 3️⃣ [Katalon Studio](./06-Katalon_Studio)  
+### 3️⃣ [Katalon Studio](./03-Katalon_Studio)  
 - **Focus**: Keyword-driven automation projects  
 - **Skills**:  
   - Built reusable components and custom keywords  
@@ -52,7 +52,7 @@ This repository shows that I can implement **professional-grade automation frame
   - Web and API automation workflows  
 
 ### 4️⃣
- [SQL for Testers](./07-SQL_For_Testers)  
+ [SQL for Testers](./04-SQL_For_Testers)  
 - **Focus**: Database validation for automation  
 - **Skills**:  
   - Verified database entries and performed data setup/cleanup  
@@ -62,7 +62,7 @@ This repository shows that I can implement **professional-grade automation frame
   - Data setup and cleanup scripts  
   - Integration with automated test scripts  
 
-### 5️⃣ [Playwright](./08-Playwright)  
+### 5️⃣ [Playwright](./05-Playwright)  
 - **Focus**: Cross-browser end-to-end automation  
 - **Skills**:  
   - Developed automated scripts for dynamic web pages  
