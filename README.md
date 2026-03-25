@@ -21,61 +21,11 @@
 
 ## 👤 About Me
 
-**ISTQB® CTFL v4 certified Junior Software Tester** with hands-on experience across **Manual, Automation, API, Performance testing, and CI/CD**.  
+**ISTQB® CTFL v4.0 certified** with a background in Computer Science and Business Administration. Practical
+experience in manual and API testing through freelance work and workshops, including writing test cases and
+reporting defects. Familiar with SDLC models and test design techniques. Looking for a Junior QA or Internship
+role where I can contribute and grow within a professional team.
 
-Skilled at designing and executing **end-to-end QA processes**, from requirements and test planning to execution, reporting, and continuous improvement.  
-
-**Top Skills:** Manual Testing | Java-based Browser Automation Framework (Selenium WebDriver) | Playwright (Basic) | Katalon Studio (Basic) | Selenium IDE | TestNG | Java | SQL (Basic) | JUnit | Pytest | Postman | Newman | JMeter | CI/CD | Agile  
- 
-
----
-
-## 🔹 1. Manual Testing
-<a name="manual-testing"></a>
-- Full QA lifecycle: **requirements → planning → test design → execution → reporting**  
-- Designed **test cases**, built **traceability matrices**, executed **Agile sprints**
-
-[Explore Folder](./01-Manual_Testing/README.md)  
-
----
-
-## 🔹 2. Automation Testing
-<a name="automation-testing"></a>
-- Demonstrates **end-to-end automation skills** using both code-based and codeless tools.  
-- Covers **Java-based Browser Automation Framework (Selenium WebDriver), Playwright, Katalon Studio, Selenium IDE, TestNG, Java, and SQL**.  
-- Highlights framework design, reusable scripts, database verification, parallel execution, and CI/CD integration.  
-
-[Explore Folder](./02-Automation_Testing/README.md)
-
----
-
-## 🔹 3. Bug Management Tools
-<a name="bug-management"></a>
-- Worked with **Jira, Zephyr, Azure DevOps** for test case & defect management  
-- Applied **severity & priority classification** for reproducible bug reports  
-- Demonstrated **cross-tool workflows**
-
-[Explore Folder](./03-Bug_Management/README.md)  
-
----
-
-## 🔹 4. API Testing
-<a name="api-testing"></a>
-- Tested **REST APIs** using Postman & Newman  
-- Covered **CRUD, authentication, error handling, positive/negative scenarios**  
-- Automated tests with **HTML/PDF reporting** and **security validations**
-
-[Explore Folder](./04-API_Testing/README.md)  
-
----
-
-## 🔹 5. Performance Testing
-<a name="performance-testing"></a>
-- Designed & executed **JMeter performance tests** on live APIs  
-- Measured **response time, throughput, CPU/memory utilization**  
-- Simulated **parallel & sequential users**, generated **dashboard reports**
-
-[Explore Folder](./05-Performance_Testing/README.md)  
 
 ---
 
