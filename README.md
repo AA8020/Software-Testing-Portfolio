@@ -21,4 +21,3 @@ role where I can contribute and grow within a professional team.
 
 ## 📬 Contact
 📧 [thegr8amrbusiness@gmail.com](mailto:thegr8amrbusiness@gmail.com)  
-💼 [LinkedIn](https://www.linkedin.com/)
